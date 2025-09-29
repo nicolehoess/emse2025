@@ -1,0 +1,201 @@
+---
+title: "Extending Git Logs from Files to Entities"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Extending Git Logs from Files to Entities}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+```{r}
+rm(list = ls())
+seed <- 1
+set.seed(seed)
+```
+
+```{r warning=FALSE,message=FALSE}
+require(kaiaulu)
+require(visNetwork)
+require(reactable)
+require(data.table)
+require(igraph)
+require(yaml)
+require(stringi)
+require(knitr)
+```
+
+# Project Configuration File
+
+```{r}
+tool <- yaml::read_yaml("../tools.yml")
+conf <- yaml::read_yaml("../conf/kaiaulu.yml")
+
+# 3rd Party Tools
+perceval_path <- tool[["perceval"]]
+utags_path <- tool[["utags"]]
+
+# Ctags Line Types
+kinds <- conf[["tool"]][["uctags"]][["keep_lines_type"]]
+
+# Local Git Repo Folder Path
+git_repo_path <- conf[["version_control"]][["log"]]
+
+# File Filters
+file_extensions <- conf[["filter"]][["keep_filepaths_ending_with"]]
+substring_filepath <- conf[["filter"]][["remove_filepaths_containing"]]
+```
+
+# Construct Collaboration Network
+
+```{r}
+project_git <- parse_gitlog(perceval_path,git_repo_path)
+#project_git <- parse_gitlog(perceval_path,git_repo_path,save_path)
+#project_git <- readRDS(save_path)
+```
+
+# Filter files
+
+```{r}
+project_git <- project_git  %>%
+  filter_by_file_extension(file_extensions,"file_pathname")  %>% 
+  filter_by_filepath_substring(substring_filepath,"file_pathname")
+```
+
+```{r}
+project_git$author_datetimetz <- as.POSIXct(project_git$author_datetimetz,
+                                              format = "%a %b %d %H:%M:%S %Y %z", tz = "UTC")
+project_git$author_datetimetz <- as.POSIXct(project_git$committer_datetimetz,
+                                              format = "%a %b %d %H:%M:%S %Y %z", tz = "UTC")
+```
+
+
+Entity analysis requires a much longer time to process than file analysis, and reason why the associated function provides a progress bar. In the interest of this demo, we use only 500 changes of the git log, but time slices could also be used. 
+
+```{r}
+#project_git_slice <- project_git[author_datetimetz >= as.POSIXct("2019-01-01", format = "%Y-%m-%d",tz = "UTC") & author_datetimetz < as.POSIXct("2019-12-31", format = "%Y-%m-%d",tz = "UTC")]
+#project_git_slice <- head(project_git,500)
+```
+
+```{r}
+changed_entities <- parse_gitlog_entity(git_repo_path,utags_path,project_git,kinds,progress_bar = TRUE)
+##changed_entities <- readRDS("~/Desktop/apr_full_gitlog_filtered_by_last_file_change.rds")
+kable(head(changed_entities))
+```
+
+
+# Identity Match
+
+
+```{r}
+project_log <- list(project_git=changed_entities)
+project_log <- identity_match(project_log,
+                              name_column = c("author_name_email"),
+                              assign_exact_identity,
+                              use_name_only=TRUE,
+                              label = "raw_name"
+                              )
+id_project_git <- project_log[["project_git"]]
+```
+
+# Visualizing the Git Log 
+
+## Authors, Committers, *Entities* and Commits
+
+Author-Entity Network
+
+```{r}
+project_collaboration_network <- transform_gitlog_to_entity_bipartite_network(last(id_project_git,
+                                                                                   1000),
+                                                                              mode = "author-entity")
+
+project_collaboration_network <- igraph::graph_from_data_frame(d=project_collaboration_network[["edgelist"]], 
+                      directed = TRUE, 
+                      vertices = project_collaboration_network[["nodes"]])
+
+visIgraph(project_collaboration_network,randomSeed = 1)
+```
+
+```{r}
+project_commit_network <- transform_gitlog_to_entity_bipartite_network(id_project_git,
+                                                                              mode ="commit-entity")
+plot_project_commit_network <- igraph::graph_from_data_frame(d=project_commit_network[["edgelist"]], 
+                      directed = TRUE, 
+                      vertices = project_commit_network[["nodes"]])
+visIgraph(plot_project_commit_network,randomSeed = 1)
+```
+
+### Bipartite Projections
+
+```{r}
+
+co_change_network <- bipartite_graph_projection(project_commit_network,
+                                                mode = FALSE,
+                                                weight_scheme_function = weight_scheme_sum_edges)
+
+plot_co_change_network <- igraph::graph_from_data_frame(d=co_change_network[["edgelist"]], 
+                      directed = FALSE, 
+                      vertices = co_change_network[["nodes"]])
+
+#co_change_network <- igraph::bipartite_projection(project_commit_network,
+#                                          multiplicity = TRUE,
+#                                          which = FALSE) # FALSE is the file projection
+visIgraph(plot_co_change_network,randomSeed = 1)
+```
+
+```{r}
+## Co-Change adjacency matrix 
+
+
+table_co_change_network <- igraph::bipartite_projection(plot_project_commit_network,
+                                          multiplicity = TRUE,
+                                          which = FALSE) # FALSE is the file projection
+
+co_change_matrix <- as_adjacency_matrix(table_co_change_network,attr = "weight",sparse = F)
+kable(co_change_matrix[1:10,1:10])
+
+#co_change_matrix <- as_adjacency_matrix(co_change_network,attr = "weight",sparse = F)
+#kable(co_change_matrix[1:10,1:10])
+```
+
+
+```{r}
+project_collaboration_network <- transform_gitlog_to_entity_bipartite_network(id_project_git,
+                                                                              mode = "author-entity")
+
+#plot_project_collaboration_network <- igraph::graph_from_data_frame(d=project_collaboration_network[["edgelist"]], 
+#                      directed = TRUE, 
+#                      vertices = project_collaboration_network[["nodes"]])
+
+#author_network <- igraph::bipartite_projection(project_collaboration_network,
+#                                          multiplicity = TRUE,
+#                                          which = TRUE) # FALSE is the file projection
+
+author_network <- bipartite_graph_projection(project_collaboration_network,
+                                                mode = TRUE,
+                                                weight_scheme_function = weight_scheme_sum_edges)
+
+plot_author_network <- igraph::graph_from_data_frame(d=author_network[["edgelist"]], 
+                      directed = FALSE, 
+                      vertices = author_network[["nodes"]])
+
+visIgraph(plot_author_network,randomSeed = 1)
+```
+
+
+# Temporal Networks 
+
+
+
+
+```{r}
+project_temporal_collaboration_network <- transform_gitlog_to_entity_temporal_network(id_project_git,mode = "author",lag = "all_lag",weight_scheme_function = weight_scheme_cum_temporal)
+project_temporal_collaboration_network <- igraph::graph_from_data_frame(d=project_temporal_collaboration_network[["edgelist"]], 
+                      directed = TRUE, 
+                      vertices = project_temporal_collaboration_network[["nodes"]])
+visIgraph(project_temporal_collaboration_network,randomSeed = 1)
+```

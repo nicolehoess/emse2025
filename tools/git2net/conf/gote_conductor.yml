@@ -1,0 +1,12 @@
+project: conductor
+git_repo_path: ../data/gote_2022/git-repos/conductor
+analysis_path: ../data/gote_2022/git2net/conductor
+complexity: true
+block_mode: false
+ranges:
+  - 2016-12-07 22:49:52
+  - 2017-06-26 11:31:59
+  - 2018-03-22 17:50:26
+  - 2018-12-18 22:31:51
+  - 2019-09-12 14:59:45
+  - 2020-06-11 00:41:12

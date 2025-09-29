@@ -1,0 +1,7 @@
+pyyaml
+progressbar
+python-ctags3
+mysqlclient
+py-notify
+notify
+pyinotify

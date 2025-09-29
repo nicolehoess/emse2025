@@ -1,0 +1,12 @@
+project: ansible_bug
+git_repo_path: ../data/foucault_2015/bug-git-repos/ansible_bug
+analysis_path: ../data/foucault_2015/git2net/ansible_bug
+complexity: false
+block_mode: false
+ranges:
+  - 2012-02-23 19:17:24
+  - 2012-04-28 16:23:44
+  - 2012-10-25 18:20:53
+  - 2013-04-23 17:40:50
+  - 2013-10-20 16:52:09
+  - 2014-04-18 18:45:36

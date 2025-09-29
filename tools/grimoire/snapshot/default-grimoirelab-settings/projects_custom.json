@@ -1,0 +1,132 @@
+{ 
+  "angular_js": {
+    "git": [
+      "https://github.com/angular/angular.js.git"
+    ]
+  },
+  "ansible": {
+    "git": [
+      "https://github.com/ansible/ansible.git"
+    ]
+  },
+  "django": {
+    "git": [
+      "https://github.com/django/django.git"
+    ]
+  }, 
+  "ffmpeg": {
+    "git": [
+      "https://git.ffmpeg.org/ffmpeg.git"
+    ]
+  },
+  "gcc": {
+    "git": [
+      "git://gcc.gnu.org/git/gcc.git"
+    ]
+  },
+  "jenkins": {
+    "git": [
+      "https://github.com/jenkinsci/jenkins.git"
+    ]
+  },
+  "jquery": {
+    "git": [
+      "https://github.com/matthieu-foucault/jquery.git"
+    ]
+  },
+  "linux": {
+    "git": [
+      "https://github.com/torvalds/linux.git"
+    ]
+  },
+  "llvm": {
+    "git": [
+      "https://github.com/llvm/llvm-project.git"
+    ]
+  },
+  "postgresql": {
+    "git": [
+      "https://git.postgresql.org/git/postgresql.git"
+    ]
+  },
+  "qemu": {
+    "git": [
+      "https://gitlab.com/qemu-project/qemu.git"
+    ]
+  },
+  "rails": {
+    "git": [
+      "https://github.com/rails/rails.git"
+    ]
+  },
+  "rstudio": {
+    "git": [
+      "https://github.com/rstudio/rstudio.git"
+    ]
+  },
+  "spark": {
+    "git": [
+      "https://github.com/apache/spark.git"
+    ]
+  },
+  "u-boot": {
+    "git": [
+      "https://github.com/u-boot/u-boot.git"
+    ]
+  },
+  "wine": {
+    "git": [
+      "https://gitlab.winehq.org/wine/wine.git"
+    ]
+  },
+    "vc": {
+    "git": [
+      "https://github.com/VcDevel/Vc.git"
+    ]
+  }, 
+  "netxms": {
+    "git": [
+      "https://github.com/netxms/netxms.git"
+    ]
+  },
+  "birt": {
+    "git": [
+      "https://github.com/eclipse-birt/birt.git"
+    ]
+  },
+  "sofa": {
+    "git": [
+      "https://github.com/sofa-framework/sofa.git"
+    ]
+  },
+  "conductor": {
+    "git": [
+      "https://github.com/Netflix/conductor.git"
+    ]
+  },
+  "gtk": {
+    "git": [
+      "https://github.com/GNOME/gtk.git"
+    ]
+  },
+  "flink": {
+    "git": [
+      "https://github.com/apache/flink.git"
+    ]
+  },
+  "cpython": {
+    "git": [
+      "https://github.com/python/cpython.git"
+    ]
+  },
+  "ansible": {
+    "git": [
+      "https://github.com/ansible/ansible.git"
+    ]
+  },
+  "homebrew": {
+    "git": [
+      "https://github.com/Homebrew/homebrew-core.git"
+    ]
+  }
+}

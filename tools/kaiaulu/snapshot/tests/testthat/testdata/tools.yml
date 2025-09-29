@@ -1,0 +1,15 @@
+# https://github.com/chaoss/grimoirelab-perceval
+perceval: ~/anaconda3/envs/kaiaulu/bin/perceval
+# https://github.com/multilang-depends/depends
+depends: ~/depends-0.9.7a
+# https://github.com/tsantalis/RefactoringMiner#running-refactoringminer-from-the-command-line
+refactoring_miner: ~/RefactoringMiner/bin/RefactoringMiner
+# https://github.com/boyter/scc
+scc: ~/scc/scc
+# universal-ctags
+utags: ~/ctags/install/bin/ctags
+# https://archdia.com/
+dv8: /Applications/DV84/bin/dv8-console
+# OSLOM: http://oslom.org/
+oslom_dir: ~/OSLOM2/oslom_dir
+oslom_undir: ~/OSLOM2/oslom_undir

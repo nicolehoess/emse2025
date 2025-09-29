@@ -1,0 +1,79 @@
+﻿Primary;Secondary;Tertiary;Count
+Software governance;;;0
+Software governance;Licensing;;0
+Software governance;Open-sourcing;;0
+Software governance;Release management;;0
+Software architecture and design;;;0
+Software architecture and design;Conformance and evolution;;0
+Software architecture and design;Patterns and anti-patterns;;0
+Software architecture and design;Redesign and reengineering;;0
+Software architecture and design;Features and variants;;0
+Software architecture and design;Documentation;;0
+Software architecture and design;Requirements;;0
+Software architecture and design;Configuration;;0
+Software quality;;;0
+Software quality;Code reviews;;0
+Software quality;Code metrics;;0
+Software quality;Defects;;0
+Software quality;Defects;Detection;0
+Software quality;Defects;Prediction;0
+Software quality;Defects;Localisation;0
+Software quality;Defects;Fixes;0
+Software quality;Defects;Patterns;0
+Software quality;Vulnerabilities and security;Detection, prediction and localisation;0
+Software quality;Vulnerabilities and security;Fixes;0
+Software quality;Vulnerabilities and security;Patterns;0
+Software quality;Tests;;0
+Software quality;Performance;;0
+Software quality;Energy efficiency;;0
+Collaboration and coordination;Organisational structures;;0
+Collaboration and coordination;Communication;;0
+Collaboration and coordination;Communication;Topic modeling;0
+Collaboration and coordination;Communication;Sentiment analysis;0
+Collaboration and coordination;Human factors and values;;0
+Collaboration and coordination;Onboarding;;0
+Collaboration and coordination;Mechanisms;;0
+Collaboration and coordination;Expertise;;0
+Software maintenance;;;0
+Software maintenance;Reuse and clones;;0
+Software maintenance;Integration;;0
+Software maintenance;Development operations;;0
+Software maintenance;Development operations;CI/CD;0
+Software maintenance;Development operations;MLOps;0
+Software maintenance;Development operations;Builds;0
+Software maintenance;Dependency management;;0
+Software maintenance;Updates and upgrades;;0
+Software maintenance;Debugging and logging;;0
+Software maintenance;Refactoring;;0
+Software maintenance;Change patterns and evolution;;0
+Software maintenance;Change impact analysis;;0
+Software maintenance;Code and change prediction;;0
+Software maintenance;Code merge;;0
+Software maintenance;Bots;;0
+Software maintenance;Technical debt;;0
+Software maintenance;Technical debt;Code smells;0
+Software maintenance;Activity and productivity;;0
+Software maintenance;Effort estimation;;0
+Development support and automation;;;0
+Development support and automation;Generation;;0
+Development support and automation;Generation;Code generation;0
+Development support and automation;Generation;Release note generation;0
+Development support and automation;Generation;Commit message generation;0
+Development support and automation;Generation;Documentation generation;0
+Development support and automation;Topic and knowledge modeling;;0
+Development support and automation;Information retrieval;;0
+Development support and automation;Recommendations;;0
+Development support and automation;Ticket and task resolution;;0
+Development support and automation;Summarisation;;0
+Development support and automation;Visualisation;;0
+MSR techniques;;;0
+MSR techniques;Tool development;;0
+MSR techniques;Threats;;0
+MSR techniques;Dataset and benchmark creation;;0
+Software usage;;;0
+Software usage;Popularity;;0
+Software usage;App stores;;0
+Software usage;End-user reviews;;0
+Software usage;Improvements;;0
+Software usage;Patterns;;0
+No MSR study;;;0

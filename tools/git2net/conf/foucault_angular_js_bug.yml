@@ -1,0 +1,17 @@
+project: angular_js_bug
+git_repo_path: ../data/foucault_2015/bug-git-repos/angular_js_bug
+analysis_path: ../data/foucault_2015/git2net/angular_js_bug
+complexity: false
+block_mode: false
+ranges:
+  - 1970-01-01 00:00:01
+  - 2010-05-20 23:55:47
+  - 2010-11-19 07:42:57
+  - 2011-05-13 14:15:59
+  - 2011-11-15 04:31:21
+  - 2012-05-09 00:00:25
+  - 2012-11-08 21:18:34
+  - 2013-05-07 20:29:44
+  - 2013-10-30 21:59:33
+  - 2014-01-22 19:39:09
+  - 2015-04-28 07:49:37

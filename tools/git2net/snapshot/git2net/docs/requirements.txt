@@ -1,0 +1,7 @@
+git2net
+sphinx
+sphinx_autodoc_typehints
+jupyter_sphinx
+sphinx_rtd_theme
+readthedocs-sphinx-search
+sphinx-tabs

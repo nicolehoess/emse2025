@@ -1,0 +1,10 @@
+Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+depends.log
+.DS_Store
+docs
+pkgdown
+rawdata
+.Rproj.user

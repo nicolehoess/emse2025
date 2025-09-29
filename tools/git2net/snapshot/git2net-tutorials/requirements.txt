@@ -1,0 +1,8 @@
+git2net>=1.6.0
+pygit2
+GitPython
+pandas
+pathpy2
+matplotlib
+seaborn
+networkx

@@ -1,0 +1,52 @@
+---
+title: "Convert Pipermail archive to mailbox"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Download Mod Mbox Mailing List Archives}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r}
+rm(list = ls())
+seed <- 1
+set.seed(seed)
+```
+
+```{r warning=FALSE,message=FALSE}
+require(kaiaulu)
+require(data.table)
+```
+
+# Introduction
+´
+```{r eval = FALSE}
+files <- list.files(file.path("/Users/nicole/Documents/SWE/Studies/EMSE_2025/data/joblin_2017/mboxes/ffmpeg"), full.names = TRUE)
+
+file_list <- c()
+for (f in files) {
+  file_list <- append(file_list, f)
+}
+
+file_list
+```
+
+```{r eval = FALSE}
+
+file_list <- c("/Users/nicole/Documents/SWE/Studies/EMSE_2025/data/joblin_2017/mboxes/ffmpeg/ffmpeg-devel_2015-09.txt.gz",
+"/Users/nicole/Documents/SWE/Studies/EMSE_2025/data/joblin_2017/mboxes/ffmpeg//ffmpeg-devel_2015-10.txt.gz",
+"/Users/nicole/Documents/SWE/Studies/EMSE_2025/data/joblin_2017/mboxes/ffmpeg//ffmpeg-devel_2015-11.txt.gz")
+
+file_list
+```
+
+```{r eval = FALSE}
+
+#file_list <- c("/Users/nicole/Documents/SWE/Studies/EMSE_2025/data/joblin_2017/mboxes/ffmpeg//ffmpeg-devel_2015-12.txt.gz")
+
+convert_pipermail_to_mbox(file_list)
+```

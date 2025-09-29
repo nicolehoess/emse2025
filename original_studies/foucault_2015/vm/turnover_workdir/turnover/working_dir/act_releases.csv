@@ -1,0 +1,1532 @@
+"","project","module","releaseDate","developer","touches","churn","commits_group_id"
+"1","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"vjuranek",3,183,1
+"2","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2012-09-03,"vjuranek",2,84,1
+"3","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2012-09-03,"vjuranek",1,2,1
+"4","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/queue\/.*)",2012-09-03,"vjuranek",5,111,1
+"5","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/node_monitors\/.*)",2012-09-03,"vjuranek",2,27,1
+"6","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2012-09-03,"vjuranek",1,25,1
+"7","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2011-09-02,"vojta jina",3,22,1
+"8","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2011-09-02,"di peng",4,143,1
+"9","https://github.com/angular/angular.js.git","(?-mix:^src\/ngCookies\/cookies\.js)",2011-09-02,"igor minar",4,100,1
+"10","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2011-09-02,"igor minar",4,374,1
+"11","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2011-09-02,"igor minar",2,206,1
+"12","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2011-09-02,"di peng",4,27,1
+"13","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2011-09-02,"di peng",1,34,1
+"14","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2011-09-02,"vojta jina",1,20,1
+"15","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2011-09-02,"vojta jina",3,12,1
+"16","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2011-09-02,"mårten dolk",1,2,1
+"17","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2011-09-02,"vojta jina",13,450,1
+"18","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"craig tataryn",1,4,1
+"19","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"kenneth r. culp",1,55,1
+"20","https://github.com/matthieu-foucault/jquery.git","src/intro.js",2012-08-09,"dmethvin",2,12,0
+"21","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"dmethvin",31,262,0
+"22","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"dmethvin",7,55,0
+"23","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"corey frang",2,27,0
+"24","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"timmy willison",1,2,0
+"25","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"dmethvin",5,287,0
+"26","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"oleg",1,8,0
+"27","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"oleg",3,28,0
+"28","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"dmethvin",9,584,0
+"29","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"dmethvin",5,131,0
+"30","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"dmethvin",6,41,0
+"31","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"mike sherov",19,482,0
+"32","https://github.com/matthieu-foucault/jquery.git","src/css.js",2011-11-03,"dmethvin",11,402,1
+"33","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"dmethvin",10,328,1
+"34","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"dmethvin",8,165,1
+"35","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2011-11-03,"dmethvin",2,86,1
+"36","https://github.com/matthieu-foucault/jquery.git","src/outro.js",2011-11-03,"dmethvin",3,2,1
+"37","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2008-10-24,"rick",1,3,1
+"38","https://github.com/rails/rails.git","(?-mix:^actionpack\/.*)",2008-10-24,"sven fuchs",2,4,1
+"39","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"sven fuchs",3,30,1
+"40","https://github.com/rails/rails.git","(?-mix:^activesupport\/.*)",2008-10-24,"sven fuchs",1,2,1
+"41","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"emilio tagua",6,16,1
+"42","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"jon leighton",1,9,1
+"43","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"wmoxam",1,2,1
+"44","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2014-02-28,"michael dehaan",12,108,0
+"45","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"robin roth",1,7,0
+"46","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"mohan krishnan",2,38,0
+"47","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2014-02-28,"aaron rice",1,2,0
+"48","https://github.com/ansible/ansible.git","plugins/inventory/gce.ini",2013-11-21,"james tanner",31,1457,1
+"49","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"nextus",2,5,1
+"50","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"dragon3",2,7,1
+"51","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"dragon3",1,4,1
+"52","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"james laska",1,28,1
+"53","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"john dewey",1,2,1
+"54","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"kiri",1,1,1
+"55","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"benno joy",1,66,1
+"56","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2013-11-21,"jon kolb",1,31,1
+"57","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"benno joy",1,6,1
+"58","https://github.com/angular/angular.js.git","(?-mix:^i18n\/e2e\/.*)",2011-09-02,"di peng",2,185,1
+"59","https://github.com/angular/angular.js.git","(?-mix:^src\/ngLocale\/.*)",2011-09-02,"di peng",155,465,1
+"60","https://github.com/angular/angular.js.git","(?-mix:^i18n\/closure\/.*)",2011-09-02,"di peng",4,7549,1
+"61","https://github.com/angular/angular.js.git","(?-mix:^i18n\/src\/closureSlurper\.js)",2011-09-02,"di peng",2,142,1
+"62","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2011-09-02,"di peng",4,177,1
+"63","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"di peng",7,50,1
+"64","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"toni thompson",2,281,1
+"65","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2011-09-02,"igor minar",12,353,1
+"66","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2011-09-02,"dandoyon",1,2,1
+"67","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2011-09-02,"dandoyon",1,2,1
+"68","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2011-09-02,"igor minar",33,125,1
+"69","https://github.com/angular/angular.js.git","(?-mix:^src\/ngLocale\/.*)",2011-09-02,"igor minar",155,465,1
+"70","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2011-09-02,"igor minar",22,347,1
+"71","https://github.com/angular/angular.js.git","(?-mix:^i18n\/spec\/.*)",2011-09-02,"di peng",3,118,1
+"72","https://github.com/angular/angular.js.git","(?-mix:^i18n\/src\/converter\.js)",2011-09-02,"di peng",1,60,1
+"73","https://github.com/angular/angular.js.git","(?-mix:^i18n\/src\/parser\.js)",2011-09-02,"di peng",1,64,1
+"74","https://github.com/angular/angular.js.git","(?-mix:^i18n\/src\/util\.js)",2011-09-02,"di peng",1,7,1
+"75","https://github.com/angular/angular.js.git","(?-mix:^src\/ngCookies\/cookies\.js)",2011-09-02,"misko hevery",2,6,1
+"76","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2011-09-02,"misko hevery",2,37,1
+"77","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"vojta jina",11,223,1
+"78","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2011-09-02,"misko hevery",5,70,1
+"79","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2011-09-02,"misko hevery",13,128,1
+"80","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"dandoyon",1,4,1
+"81","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2011-09-02,"dandoyon",1,4,1
+"82","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2011-09-02,"dandoyon",1,23,1
+"83","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2011-09-02,"karl seamon",1,10,1
+"84","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2011-09-02,"misko hevery",11,522,1
+"85","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/sanitize\.js)",2011-09-02,"igor minar",4,8,1
+"86","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"richard gibson",3,162,0
+"87","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"richard gibson",3,17,0
+"88","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"richard gibson",5,210,0
+"89","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"richard gibson",7,248,0
+"90","https://github.com/matthieu-foucault/jquery.git","src/deprecated.js",2012-08-09,"richard gibson",1,4,0
+"91","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"richard gibson",5,223,0
+"92","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"richard gibson",2,10,0
+"93","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"richard gibson",8,342,0
+"94","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"corey frang",8,1121,0
+"95","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"mike sherov",13,152,0
+"96","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"julian aubourg",9,182,0
+"97","https://github.com/matthieu-foucault/jquery.git","src/serialize.js",2012-08-09,"julian aubourg",1,101,0
+"98","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"chris faulkner",1,2,0
+"99","https://github.com/matthieu-foucault/jquery.git","src/ajax/xhr.js",2012-08-09,"chris faulkner",1,2,0
+"100","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"chris faulkner",1,2,0
+"101","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"chris faulkner",1,6,0
+"102","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"chris faulkner",1,2,0
+"103","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"uri gilad",2,8,0
+"104","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2012-08-09,"uri gilad",1,4,0
+"105","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"mike sherov",3,79,0
+"106","https://github.com/matthieu-foucault/jquery.git","src/ajax/xhr.js",2012-08-09,"mike sherov",3,11,0
+"107","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"mike sherov",3,31,0
+"108","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2012-08-09,"mike sherov",1,10,0
+"109","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"mike sherov",8,273,0
+"110","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"mike sherov",1,3,0
+"111","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2012-08-09,"mike sherov",8,85,0
+"112","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"mike sherov",9,68,0
+"113","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"mike sherov",4,33,0
+"114","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"mike sherov",2,53,0
+"115","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"mike sherov",3,30,0
+"116","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"david benjamin",1,9,0
+"117","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2012-08-09,"nowres rafid",1,2,0
+"118","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"oleg",2,12,0
+"119","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"oleg",4,57,0
+"120","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"oleg",1,2,0
+"121","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"richard gibson",2,97,0
+"122","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2012-08-09,"mike sherov",2,12,0
+"123","https://github.com/matthieu-foucault/jquery.git","src/deprecated.js",2012-08-09,"mike sherov",1,21,0
+"124","https://github.com/matthieu-foucault/jquery.git","src/intro.js",2012-08-09,"mike sherov",1,2,0
+"125","https://github.com/matthieu-foucault/jquery.git","src/sizzle-jquery.js",2012-08-09,"mike sherov",1,2,0
+"126","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"timmy willison",4,30,0
+"127","https://github.com/matthieu-foucault/jquery.git","src/sizzle-jquery.js",2012-08-09,"timmy willison",2,3,0
+"128","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"timmy willison",10,161,0
+"129","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"dmethvin",8,205,0
+"130","https://github.com/matthieu-foucault/jquery.git","src/deprecated.js",2012-08-09,"dmethvin",1,21,0
+"131","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"dmethvin",5,83,0
+"132","https://github.com/matthieu-foucault/jquery.git","src/intro.js",2012-08-09,"timmy willison",1,4,0
+"133","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"rick waldron",5,87,0
+"134","https://github.com/matthieu-foucault/jquery.git","src/deprecated.js",2012-08-09,"rick waldron",1,41,0
+"135","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"rick waldron",5,46,0
+"136","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"krinkle",1,2,0
+"137","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"timmy willison",2,69,0
+"138","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"rick waldron",5,339,0
+"139","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"rick waldron",5,117,0
+"140","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"sindre sorhus",1,4,0
+"141","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"vladimir zhuravlev",1,4,0
+"142","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2012-08-09,"richard gibson",1,2,0
+"143","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2012-08-09,"richard gibson",2,26,0
+"144","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"jeffery to",1,30,0
+"145","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"richard gibson",1,59,0
+"146","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"julian aubourg",4,10,0
+"147","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"rick waldron",6,48,0
+"148","https://github.com/matthieu-foucault/jquery.git","src/ajax/jsonp.js",2012-08-09,"rick waldron",1,4,0
+"149","https://github.com/matthieu-foucault/jquery.git","src/ajax/script.js",2012-08-09,"rick waldron",1,4,0
+"150","https://github.com/matthieu-foucault/jquery.git","src/ajax/xhr.js",2012-08-09,"rick waldron",1,4,0
+"151","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2012-08-09,"rick waldron",3,12,0
+"152","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"rick waldron",3,16,0
+"153","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2012-08-09,"rick waldron",3,52,0
+"154","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2012-08-09,"rick waldron",3,12,0
+"155","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"rick waldron",4,15,0
+"156","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"rick waldron",6,62,0
+"157","https://github.com/matthieu-foucault/jquery.git","src/exports.js",2012-08-09,"rick waldron",1,4,0
+"158","https://github.com/matthieu-foucault/jquery.git","src/intro.js",2012-08-09,"rick waldron",1,5,0
+"159","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"rick waldron",14,624,0
+"160","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2012-08-09,"rick waldron",3,118,0
+"161","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2012-08-09,"rick waldron",1,4,0
+"162","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"rick waldron",10,73,0
+"163","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"ben alman",1,5,0
+"164","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2012-08-09,"oleg",2,78,0
+"165","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2012-08-09,"richard gibson",2,107,0
+"166","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2012-08-09,"corey frang",1,125,0
+"167","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"jason moon",2,8,0
+"168","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"jason moon",2,5,0
+"169","https://github.com/matthieu-foucault/jquery.git","src/ajax/xhr.js",2012-08-09,"julian aubourg",2,16,0
+"170","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"dmethvin",8,104,0
+"171","https://github.com/matthieu-foucault/jquery.git","src/ajax/jsonp.js",2012-08-09,"dmethvin",1,99,0
+"172","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2012-08-09,"dmethvin",3,164,0
+"173","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2012-08-09,"dmethvin",3,206,0
+"174","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2012-08-09,"dmethvin",2,19,0
+"175","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"dmethvin",4,903,0
+"176","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2012-08-09,"dmethvin",2,121,0
+"177","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2012-08-09,"mike sherov",4,64,0
+"178","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2012-08-09,"matt farmer",1,11,0
+"179","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2012-08-09,"julian aubourg",8,273,0
+"180","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"sindre sorhus",1,9,0
+"181","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"julian aubourg",3,101,0
+"182","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"scott gonzález",1,9,0
+"183","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"oleg",3,55,0
+"184","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2012-08-09,"julian aubourg",11,233,0
+"185","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"julian aubourg",2,4,0
+"186","https://github.com/matthieu-foucault/jquery.git","src/ajax/jsonp.js",2012-08-09,"julian aubourg",4,116,0
+"187","https://github.com/matthieu-foucault/jquery.git","src/ajax/jsonp.js",2012-08-09,"richard gibson",3,101,0
+"188","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"arne de bree",1,7,0
+"189","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"dominik d. geyer",1,2,0
+"190","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"cmcnulty",1,10,0
+"191","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"tsinha",1,2,0
+"192","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"sindre sorhus",1,5,0
+"193","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"sindre sorhus",1,2,0
+"194","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2012-08-09,"sindre sorhus",1,6,0
+"195","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"sindre sorhus",1,2,0
+"196","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"oskari",1,2,0
+"197","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"robert katic",1,11,0
+"198","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"oleg",1,6,0
+"199","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"oleg",1,20,0
+"200","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"louisremi",1,3,0
+"201","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"sindre sorhus",1,4,0
+"202","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"mathias bynens",1,4,0
+"203","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"vladislav zarakovsky",1,40,0
+"204","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2012-08-09,"richard gibson",2,12,0
+"205","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"scott gonzález",1,8,0
+"206","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"arne de bree",1,4,0
+"207","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"sindre sorhus",1,2,0
+"208","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2012-08-09,"presbrey",1,2,0
+"209","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2012-08-09,"timmy willison",3,10,0
+"210","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"timmy willison",6,210,0
+"211","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"cmc3cn",1,6,0
+"212","https://github.com/matthieu-foucault/jquery.git","src/css.js",2012-08-09,"timmy willison",2,183,0
+"213","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"rafac3abl blais masson",1,3,0
+"214","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2012-08-09,"richard gibson",1,97,0
+"215","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"jrburke",1,14,0
+"216","https://github.com/matthieu-foucault/jquery.git","src/exports.js",2012-08-09,"jrburke",1,22,0
+"217","https://github.com/matthieu-foucault/jquery.git","src/outro.js",2012-08-09,"jrburke",1,3,0
+"218","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2012-08-09,"oleg",1,6,0
+"219","https://github.com/matthieu-foucault/jquery.git","src/core.js",2012-08-09,"daniel herman",1,2,0
+"220","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"timmy willison",1,32,0
+"221","https://github.com/matthieu-foucault/jquery.git","src/event.js",2012-08-09,"daniel herman",1,2,0
+"222","https://github.com/matthieu-foucault/jquery.git","src/data.js",2012-08-09,"justin",1,6,0
+"223","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"timmy willison",15,183,1
+"224","https://github.com/matthieu-foucault/jquery.git","src/css.js",2011-11-03,"timmy willison",7,114,1
+"225","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"timmy willison",10,163,1
+"226","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2011-11-03,"timmy willison",2,48,1
+"227","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2011-11-03,"timmy willison",3,38,1
+"228","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"corey frang",7,106,1
+"229","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2011-11-03,"corey frang",2,28,1
+"230","https://github.com/matthieu-foucault/jquery.git","src/css.js",2011-11-03,"mike sherov",4,79,1
+"231","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"dmethvin",69,3564,1
+"232","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2011-11-03,"dmethvin",19,646,1
+"233","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2011-11-03,"dmethvin",14,842,1
+"234","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"dmethvin",24,668,1
+"235","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"timmy willison",4,24,1
+"236","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"julian aubourg",2,21,1
+"237","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2011-11-03,"julian aubourg",1,6,1
+"238","https://github.com/matthieu-foucault/jquery.git","src/sizzle-jquery.js",2011-11-03,"timmy willison",1,3,1
+"239","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"rick waldron",10,80,1
+"240","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"timmy willison",2,7,1
+"241","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"anton ryzhov",2,7,1
+"242","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2011-11-03,"scottjehl",1,5,1
+"243","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"steen nielsen",1,7,1
+"244","https://github.com/matthieu-foucault/jquery.git","src/css.js",2011-11-03,"corey frang",2,27,1
+"245","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2011-11-03,"denis knauf",1,2,1
+"246","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2011-11-03,"corey frang",1,15,1
+"247","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"schalk neethling",1,2,1
+"248","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"greg hazel",1,1,1
+"249","https://github.com/matthieu-foucault/jquery.git","src/outro.js",2011-11-03,"greg hazel",1,1,1
+"250","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2011-11-03,"timmy willison",2,10,1
+"251","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"scott hughes",1,2,1
+"252","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"mathias bynens",1,14,1
+"253","https://github.com/matthieu-foucault/jquery.git","src/css.js",2011-11-03,"avaly",1,2,1
+"254","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"julian aubourg",1,3,1
+"255","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"john resig",1,4,1
+"256","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"john resig",1,7,1
+"257","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"louisremi",3,35,1
+"258","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2011-11-03,"louisremi",1,152,1
+"259","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"louisremi",1,7,1
+"260","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"louisremi",1,2,1
+"261","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2011-11-03,"louisremi",1,2,1
+"262","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"louisremi",1,4,1
+"263","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"louisremi",1,8,1
+"264","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2011-11-03,"louisremi",1,3,1
+"265","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"louisremi",1,12,1
+"266","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"sahab yazdani",1,2,1
+"267","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"daniel pihlstrom",1,9,1
+"268","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2011-11-03,"john resig",1,21,1
+"269","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"john resig",1,8,1
+"270","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2009-03-16,"david heinemeier hansson",2,4,0
+"271","https://github.com/rails/rails.git","(?-mix:^actionpack\/.*)",2009-03-16,"david heinemeier hansson",2,4,0
+"272","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2009-03-16,"david heinemeier hansson",2,4,0
+"273","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"david heinemeier hansson",5,10,0
+"274","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2009-03-16,"david heinemeier hansson",3,7,0
+"275","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/rack\/.*)",2009-03-16,"luca guidi",1,2,0
+"276","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"misfo",1,2,0
+"277","https://github.com/rails/rails.git","(?-mix:^railties\/builtin\/rails_info\/.*)",2009-03-16,"joshua peek",1,4,0
+"278","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"mike gunderloy",4,27,0
+"279","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"jason king",2,74,0
+"280","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"joshua peek",22,183,0
+"281","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"david dollar",1,2,0
+"282","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2009-03-16,"david dollar",1,210,0
+"283","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2009-03-16,"zack hobson",1,9,0
+"284","https://github.com/rails/rails.git","(?-mix:^railties\/environments\/.*)",2009-03-16,"john dzak",1,1,0
+"285","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"jeremy kemper",5,49,0
+"286","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"chris kampmeier",2,8,0
+"287","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"luca guidi",2,47,0
+"288","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"elijah miller",1,1,0
+"289","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2009-03-16,"damian terentiev",1,2,0
+"290","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"murray steele",1,13,0
+"291","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"will bryant",5,32,0
+"292","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"donald parish",2,72,0
+"293","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"pratik naik",11,254,0
+"294","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"jeremy kemper",19,469,0
+"295","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/xml_mini.*)",2009-03-16,"aaron patterson",3,92,0
+"296","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/caching\/.*)",2009-03-16,"mislav marohnić",1,21,0
+"297","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"henrik n",1,6,0
+"298","https://github.com/rails/rails.git","(?-mix:^actionpack\/.*)",2009-03-16,"joshua peek",4,13,0
+"299","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/xml_mini.*)",2009-03-16,"jeremy kemper",10,432,0
+"300","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2009-03-16,"jeff schwab",1,3,0
+"301","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/json\/.*)",2009-03-16,"pratik naik",1,12,0
+"302","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/json\/.*)",2009-03-16,"tim pope",1,23,0
+"303","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"eugene pimenov",1,5,0
+"304","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2009-03-16,"sean dague",1,2,0
+"305","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"manfred stienstra",2,15,0
+"306","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"bruce krysiak",1,18,0
+"307","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/rack\/.*)",2009-03-16,"joshua peek",1,13,0
+"308","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2009-03-16,"andrew bloom",1,3,0
+"309","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2009-03-16,"andrew timberlake",1,2,0
+"310","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"curtis hawthorne",1,33,0
+"311","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"jim remsik and tim pope",1,2,0
+"312","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"rpheath",1,4,0
+"313","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"rob anderton",1,2,0
+"314","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"jan de poorter",1,2,0
+"315","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2009-03-16,"matt jones",3,51,0
+"316","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"jeremy kemper",6,173,0
+"317","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/xml_mini.*)",2009-03-16,"bart ten brinke",3,345,0
+"318","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"jeffrey hardy",1,5,0
+"319","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"john aughey",2,11,0
+"320","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"tom stuart",1,4,0
+"321","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/multibyte\/.*)",2009-03-16,"george ogata",1,16,0
+"322","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"matt jones",2,29,0
+"323","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"lawrence pit",1,4,0
+"324","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"dan barry",1,4,0
+"325","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2009-03-16,"pratik naik",1,1,0
+"326","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"stopdropandrew",1,14,0
+"327","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"arthur klepchukov",1,8,0
+"328","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"adam milligan",2,6,0
+"329","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"johan sørensen",1,4,0
+"330","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"adam cooper",2,6,0
+"331","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"dimitri krassovski",1,9,0
+"332","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"tom lea",1,10,0
+"333","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2009-03-16,"pratik naik",1,4,0
+"334","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"jvoorhis",1,5,0
+"335","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"niels ganser",1,4,0
+"336","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/rack\/.*)",2009-03-16,"simon jefford",2,20,0
+"337","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"thedarkone",2,3,0
+"338","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"david heinemeier hansson",5,13,0
+"339","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"jeremy kemper",10,32,0
+"340","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2009-03-16,"joshua peek",1,4,0
+"341","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2009-03-16,"jeremy kemper",3,9,0
+"342","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2009-03-16,"jeremy kemper",1,2,0
+"343","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"jeremy kemper",4,13,0
+"344","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/rack\/.*)",2009-03-16,"jeremy kemper",2,31,0
+"345","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2009-03-16,"mike gunderloy",1,2,0
+"346","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"joshua peek",2,26,0
+"347","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"simon jefford",1,6,0
+"348","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"michael koziarski",3,39,0
+"349","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2009-03-16,"elliott wood",1,5,0
+"350","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2009-03-16,"jeremy kemper",2,38,0
+"351","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2009-03-16,"charles nutter",1,21,0
+"352","https://github.com/rails/rails.git","(?-mix:^railties\/guides\/.*)",2009-03-16,"pratik naik",11,345,0
+"353","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"pratik naik",3,10,0
+"354","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2009-03-16,"pratik naik",2,4,0
+"355","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2009-03-16,"andrew vit",1,24,0
+"356","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"mike gunderloy",1,2,0
+"357","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"gregg pollack",1,42,0
+"358","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"jeremy kemper",4,11,0
+"359","https://github.com/rails/rails.git","(?-mix:^actionpack\/.*)",2009-03-16,"jeremy kemper",1,2,0
+"360","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2009-03-16,"jeremy kemper",5,66,0
+"361","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2009-03-16,"jeremy kemper",2,8,0
+"362","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/plugin\/.*)",2009-03-16,"jeremy kemper",1,5,0
+"363","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2009-03-16,"jeremy kemper",3,18,0
+"364","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"zack hobson",1,5,0
+"365","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"matthew rudy jacobs",1,2,0
+"366","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2009-03-16,"matthew rudy jacobs",1,6,0
+"367","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/plugin\/.*)",2009-03-16,"matthew rudy jacobs",1,3,0
+"368","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/rack\/.*)",2009-03-16,"matthew rudy jacobs",1,15,0
+"369","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"david heinemeier hansson",18,500,0
+"370","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/plugin\/.*)",2009-03-16,"david heinemeier hansson",1,2,0
+"371","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"eloy duran",2,17,0
+"372","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"eloy duran",1,136,0
+"373","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2009-03-16,"sam granieri",1,4,0
+"374","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"diego algorta",1,11,0
+"375","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"joshua peek",10,61,0
+"376","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2009-03-16,"marcus mateus",1,3,0
+"377","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"thedarkone",7,276,0
+"378","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"matt jones",1,6,0
+"379","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"pratik naik",2,48,0
+"380","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"pratik naik",1,6,0
+"381","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"pratik naik",1,3,0
+"382","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2009-03-16,"sven fuchs",1,4,0
+"383","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"sven fuchs",1,4,0
+"384","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/plugin\/.*)",2009-03-16,"sven fuchs",1,6,0
+"385","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"david heinemeier hansson",3,7,0
+"386","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2009-03-16,"andrew white",2,28,0
+"387","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"xavier noria",1,16,0
+"388","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"moro",1,13,0
+"389","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"sven fuchs",4,67,0
+"390","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"matt jones",1,6,0
+"391","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/file\/.*)",2009-03-16,"bruno duyé",1,2,0
+"392","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"joshua peek",4,71,0
+"393","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/json\/.*)",2009-03-16,"akira matsuda",1,5,0
+"394","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2009-03-16,"unknown",1,10,0
+"395","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"tekin suleyman",2,107,0
+"396","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"sam oliver",1,2,0
+"397","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"lance ivy",1,26,0
+"398","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"lance ivy",1,232,0
+"399","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/plugin\/.*)",2009-03-16,"oshoma momoh",1,2,0
+"400","https://github.com/rails/rails.git","(?-mix:^actionpack\/.*)",2009-03-16,"thedarkone",1,1,0
+"401","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"thedarkone",1,6,0
+"402","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"jiri zajpt",1,1,0
+"403","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"joshua peek",2,6,0
+"404","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"andrew white",8,156,0
+"405","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"andrew white",2,19,0
+"406","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"gaspard bucher",1,2,0
+"407","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"david heinemeier hansson",4,28,0
+"408","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"geoff buesing",4,8,0
+"409","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"andrew white",2,13,0
+"410","https://github.com/rails/rails.git","(?-mix:^railties\/environments\/.*)",2009-03-16,"andrew white",1,1,0
+"411","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"levin alexander",1,1,0
+"412","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/session\/.*)",2009-03-16,"joshua peek",7,64,0
+"413","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"josé valim",2,4,0
+"414","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"eugene pimenov",1,2,0
+"415","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"eugene pimenov",1,2,0
+"416","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2009-03-16,"david heinemeier hansson",1,4,0
+"417","https://github.com/rails/rails.git","(?-mix:^railties\/guides\/.*)",2009-03-16,"david heinemeier hansson",5,265,0
+"418","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2009-03-16,"david heinemeier hansson",1,17,0
+"419","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/session\/.*)",2009-03-16,"jeremy kemper",1,19,0
+"420","https://github.com/rails/rails.git","(?-mix:^railties\/guides\/.*)",2009-03-16,"jeremy kemper",5,265,0
+"421","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"max lapshin",2,2,0
+"422","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"pascal ehlert",1,8,0
+"423","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"michael koziarski",1,2,0
+"424","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"pascal ehlert",1,3,0
+"425","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2009-03-16,"peter wagenet",1,2,0
+"426","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"andrew white",1,3,0
+"427","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"adam mccrea",1,2,0
+"428","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2009-03-16,"chris cherry",1,17,0
+"429","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"thijs de vries",1,2,0
+"430","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2009-03-16,"matt jones",1,2,0
+"431","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2009-03-16,"scott taylor",1,6,0
+"432","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2009-03-16,"chris finne",1,27,0
+"433","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2009-03-16,"mike gunderloy",1,2,0
+"434","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/multibyte\/.*)",2009-03-16,"jeremy kemper",2,4,0
+"435","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2009-03-16,"josé valim",1,16,0
+"436","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2009-03-16,"pratik naik",1,13,0
+"437","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"jeremy kemper",16,662,1
+"438","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"david heinemeier hansson",1,2,1
+"439","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"pratik naik",6,30,1
+"440","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"pratik naik",36,1086,1
+"441","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/multibyte\/.*)",2008-10-24,"pratik naik",1,2,1
+"442","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"david heinemeier hansson",14,300,1
+"443","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/caching\/.*)",2008-10-24,"pratik naik",3,32,1
+"444","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2008-10-24,"pratik naik",7,94,1
+"445","https://github.com/rails/rails.git","(?-mix:^activesupport\/.*)",2008-10-24,"pratik naik",2,6,1
+"446","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2008-10-24,"david heinemeier hansson",1,3,1
+"447","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2008-10-24,"pratik naik",2,4,1
+"448","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2008-10-24,"david heinemeier hansson",1,2,1
+"449","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2008-10-24,"matt jones",6,185,1
+"450","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"tim harper",1,1,1
+"451","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"geoff buesing",3,8,1
+"452","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"michael koziarski",4,19,1
+"453","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2008-10-24,"michael koziarski",1,2,1
+"454","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/values\/.*)",2008-10-24,"pratik naik",1,2,1
+"455","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/cache\/.*)",2008-10-24,"doug barth",3,11,1
+"456","https://github.com/rails/rails.git","(?-mix:^railties\/environments\/.*)",2008-10-24,"pratik naik",2,5,1
+"457","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"ian white",1,4,1
+"458","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2008-10-24,"michael koziarski",7,18,1
+"459","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"michael koziarski",14,129,1
+"460","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2008-10-24,"joshua peek",1,1,1
+"461","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/float\/.*)",2008-10-24,"tom lea",2,31,1
+"462","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"tom lea",2,4,1
+"463","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/integer\/.*)",2008-10-24,"tom lea",1,45,1
+"464","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/numeric\/.*)",2008-10-24,"tom lea",1,10,1
+"465","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/time\/.*)",2008-10-24,"tom lea",1,10,1
+"466","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"david heinemeier hansson",3,64,1
+"467","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"matthew m. boedicker",1,10,1
+"468","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"michael koziarski",11,53,1
+"469","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"will bryant",3,18,1
+"470","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"hongli lai (phusion)",13,205,1
+"471","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2008-10-24,"matt jones",2,6,1
+"472","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"madlep",1,2,1
+"473","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"pratik naik",19,487,1
+"474","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"pratik naik",3,99,1
+"475","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"zach dennis",2,55,1
+"476","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"lawrence pit",1,2,1
+"477","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"aliaksey kandratsenka",4,21,1
+"478","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"luca guidi",1,4,1
+"479","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"eloy duran",2,14,1
+"480","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"joshua peek",1,3,1
+"481","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2008-10-24,"joshua peek",5,102,1
+"482","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"tarmo tänav",4,30,1
+"483","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"adam milligan",1,8,1
+"484","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails\/.*)",2008-10-24,"michael koziarski",3,8,1
+"485","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"pivotal  labs",1,30,1
+"486","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"michael koziarski",2,4,1
+"487","https://github.com/rails/rails.git","(?-mix:^actionpack\/.*)",2008-10-24,"michael koziarski",2,4,1
+"488","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"jan de poorter",1,7,1
+"489","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"manfred stienstra",2,4,1
+"490","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2008-10-24,"claudio poli",2,39,1
+"491","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"adeh desandies",1,8,1
+"492","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"rick",2,49,1
+"493","https://github.com/rails/rails.git","(?-mix:^actionpack\/.*)",2008-10-24,"rick",2,6,1
+"494","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"rick",17,511,1
+"495","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2008-10-24,"rick",6,190,1
+"496","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"rick",10,163,1
+"497","https://github.com/rails/rails.git","(?-mix:^activemodel\/lib\/active_model\/.*)",2008-10-24,"rick",1,2,1
+"498","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"rick",33,1606,1
+"499","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"rick",5,179,1
+"500","https://github.com/rails/rails.git","(?-mix:^activesupport\/.*)",2008-10-24,"rick",1,7,1
+"501","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"rick",16,488,1
+"502","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/cache\/.*)",2008-10-24,"rick",3,80,1
+"503","https://github.com/rails/rails.git","(?-mix:^railties\/environments\/.*)",2008-10-24,"rick",1,5,1
+"504","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2008-10-24,"rick",3,33,1
+"505","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2008-10-24,"rick",2,155,1
+"506","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"nathaniel talbott",1,6,1
+"507","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2008-10-24,"michael koziarski",1,1,1
+"508","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"duff omelia",1,2,1
+"509","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"seiji sogabe",2,16,0
+"510","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"jesse glick",68,2684,0
+"511","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scheduler\/.*)",2013-04-02,"jesse glick",1,3,0
+"512","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"seiji sogabe",3,10,0
+"513","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scm\/.*)",2013-04-02,"vjuranek",5,29,0
+"514","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2013-04-02,"vjuranek",13,315,0
+"515","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"vjuranek",145,6334,0
+"516","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2013-04-02,"vjuranek",3,81,0
+"517","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/node_monitors\/.*)",2013-04-02,"vjuranek",11,187,0
+"518","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"vjuranek",30,390,0
+"519","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"vjuranek",6,74,0
+"520","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"vjuranek",21,441,0
+"521","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"vjuranek",18,514,0
+"522","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"vjuranek",21,353,0
+"523","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"vjuranek",45,1777,0
+"524","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"vjuranek",12,312,0
+"525","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"vjuranek",29,1764,0
+"526","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"vjuranek",15,3057,0
+"527","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"vjuranek",5,94,0
+"528","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2013-04-02,"vjuranek",8,816,0
+"529","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"vjuranek",46,2342,0
+"530","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/local_repo\/.*)",2013-04-02,"vjuranek",2,2,0
+"531","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"jesse glick",38,631,0
+"532","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"jesse glick",31,550,0
+"533","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"stephen connolly",1,12,0
+"534","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"jesse glick",98,1979,0
+"535","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"jesse glick",266,5743,0
+"536","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"jesse glick",40,707,0
+"537","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"jesse glick",30,436,0
+"538","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"jesse glick",53,1519,0
+"539","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"jesse glick",17,332,0
+"540","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"jesse glick",49,1659,0
+"541","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"jesse glick",23,1896,0
+"542","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2013-04-02,"jesse glick",7,578,0
+"543","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"kohsuke kawaguchi",280,4143,0
+"544","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"kohsuke kawaguchi",11,115,0
+"545","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"kohsuke kawaguchi",54,1380,0
+"546","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"kohsuke kawaguchi",18,320,0
+"547","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"kohsuke kawaguchi",11,132,0
+"548","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2013-04-02,"kohsuke kawaguchi",8,188,0
+"549","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"imod",49,672,0
+"550","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"pedro rodriguez",3,39,0
+"551","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"michael clarke",1,2,0
+"552","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"michael clarke",1,8,0
+"553","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"michael clarke",2,48,0
+"554","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"kohsuke kawaguchi",18,324,0
+"555","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2013-04-02,"kohsuke kawaguchi",13,121,0
+"556","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"kohsuke kawaguchi",10,194,0
+"557","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/labels\/.*)",2013-04-02,"kohsuke kawaguchi",3,6,0
+"558","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2013-04-02,"kohsuke kawaguchi",4,88,0
+"559","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/node_monitors\/.*)",2013-04-02,"kohsuke kawaguchi",4,43,0
+"560","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"kohsuke kawaguchi",6,66,0
+"561","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"kohsuke kawaguchi",8,160,0
+"562","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2013-04-02,"kohsuke kawaguchi",8,307,0
+"563","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"kohsuke kawaguchi",16,180,0
+"564","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/node_monitors\/.*)",2013-04-02,"jesse glick",6,69,0
+"565","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"simon wiest",1,20,0
+"566","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"simon wiest",5,42,0
+"567","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"simon wiest",1,6,0
+"568","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"simon wiest",1,19,0
+"569","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"simon wiest",1,38,0
+"570","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"jesse glick",5,94,0
+"571","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"olivier lamy",144,6086,0
+"572","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"olivier lamy",20,945,0
+"573","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"olivier lamy",3,312,0
+"574","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"olivier lamy",8,289,0
+"575","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"olivier lamy",57,1989,0
+"576","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2013-04-02,"olivier lamy",7,112,0
+"577","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"olivier lamy",4,15,0
+"578","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2013-04-02,"olivier lamy",19,799,0
+"579","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/labels\/.*)",2013-04-02,"olivier lamy",3,12,0
+"580","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2013-04-02,"olivier lamy",6,164,0
+"581","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"olivier lamy",3,186,0
+"582","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"olivier lamy",18,233,0
+"583","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"olivier lamy",17,413,0
+"584","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"olivier lamy",18,322,0
+"585","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"olivier lamy",32,1076,0
+"586","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"olivier lamy",8,168,0
+"587","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/xstream\/.*)",2013-04-02,"olivier lamy",1,28,0
+"588","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"olivier lamy",14,3033,0
+"589","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2013-04-02,"olivier lamy",1,1,0
+"590","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"pei-tang huang",20,439,0
+"591","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"pei-tang huang",60,1498,0
+"592","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"pei-tang huang",11,452,0
+"593","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"christoph kutzinski",105,2086,0
+"594","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"christoph kutzinski",13,308,0
+"595","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"christoph kutzinski",31,351,0
+"596","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2013-04-02,"christoph kutzinski",5,83,0
+"597","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"christoph kutzinski",4,22,0
+"598","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scm\/.*)",2013-04-02,"christoph kutzinski",3,21,0
+"599","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"christoph kutzinski",17,137,0
+"600","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"christoph kutzinski",6,159,0
+"601","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"christoph kutzinski",14,333,0
+"602","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"christoph kutzinski",8,193,0
+"603","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"christoph kutzinski",24,1043,0
+"604","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"christoph kutzinski",4,30,0
+"605","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2013-04-02,"christoph kutzinski",27,2403,0
+"606","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2013-04-02,"jesse glick",8,68,0
+"607","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"joel johnson",1,4,0
+"608","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"nicolas de loof",56,1050,0
+"609","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/xstream\/.*)",2013-04-02,"vjuranek",2,56,0
+"610","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"vjuranek",5,106,0
+"611","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"vjuranek",23,971,0
+"612","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/handlers\/.*)",2013-04-02,"vjuranek",2,4,0
+"613","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2013-04-02,"vjuranek",7,64,0
+"614","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/diagnosis\/.*)",2013-04-02,"vjuranek",2,46,0
+"615","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/init\/.*)",2013-04-02,"vjuranek",2,48,0
+"616","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"vjuranek",3,110,0
+"617","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/logging\/.*)",2013-04-02,"vjuranek",4,20,0
+"618","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/labels\/.*)",2013-04-02,"vjuranek",2,12,0
+"619","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2013-04-02,"vjuranek",2,4,0
+"620","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"vjuranek",3,222,0
+"621","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2013-04-02,"vjuranek",6,68,0
+"622","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2013-04-02,"vjuranek",6,78,0
+"623","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2013-04-02,"vjuranek",4,86,0
+"624","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"vjuranek",4,26,0
+"625","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"vjuranek",13,622,0
+"626","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"vjuranek",26,1241,0
+"627","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2013-04-02,"vjuranek",17,1601,0
+"628","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2013-04-02,"vjuranek",4,160,0
+"629","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2013-04-02,"vjuranek",3,196,0
+"630","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"vjuranek",19,751,0
+"631","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"ignacio albors",1,2,0
+"632","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"peter hayes",1,6,0
+"633","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"pei-tang huang",5,102,0
+"634","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"pei-tang huang",9,188,0
+"635","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"pei-tang huang",6,148,0
+"636","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"pei-tang huang",20,843,0
+"637","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"pei-tang huang",9,559,0
+"638","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"pei-tang huang",16,436,0
+"639","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"jesse glick",11,128,0
+"640","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/labels\/.*)",2013-04-02,"jesse glick",3,12,0
+"641","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scm\/.*)",2013-04-02,"jesse glick",2,14,0
+"642","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2013-04-02,"jesse glick",18,1602,0
+"643","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2013-04-02,"jesse glick",6,201,0
+"644","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"jesse glick",24,925,0
+"645","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2013-04-02,"pei-tang huang",1,34,0
+"646","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/labels\/.*)",2013-04-02,"pei-tang huang",1,2,0
+"647","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2013-04-02,"pei-tang huang",1,8,0
+"648","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"pei-tang huang",11,196,0
+"649","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"pei-tang huang",9,214,0
+"650","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"pei-tang huang",4,79,0
+"651","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2013-04-02,"pei-tang huang",9,801,0
+"652","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"joeljohnson",1,9,0
+"653","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"richard mortimer",1,2,0
+"654","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"gcummings",1,5,0
+"655","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"cynipe",1,4,0
+"656","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"ryan campbell",8,137,0
+"657","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"kevin p. fleming",2,46,0
+"658","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"richard mortimer",1,2,0
+"659","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"johno crawford",4,119,0
+"660","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"johno crawford",1,16,0
+"661","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"johno crawford",1,1,0
+"662","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"stephen connolly",3,93,0
+"663","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"aleksas",2,15,0
+"664","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"julian schmidt",1,8,0
+"665","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"julian schmidt",1,3,0
+"666","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"ryan campbell",1,8,0
+"667","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"ryan campbell",1,38,0
+"668","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"olivier lamy",12,175,0
+"669","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"pei-tang huang",8,421,0
+"670","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/handlers\/.*)",2013-04-02,"pei-tang huang",1,2,0
+"671","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2013-04-02,"pei-tang huang",1,24,0
+"672","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/diagnosis\/.*)",2013-04-02,"pei-tang huang",1,23,0
+"673","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"pei-tang huang",1,55,0
+"674","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/logging\/.*)",2013-04-02,"pei-tang huang",1,4,0
+"675","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2013-04-02,"pei-tang huang",1,2,0
+"676","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"pei-tang huang",1,20,0
+"677","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scm\/.*)",2013-04-02,"pei-tang huang",1,7,0
+"678","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"pei-tang huang",6,118,0
+"679","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2013-04-02,"pei-tang huang",1,2,0
+"680","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2013-04-02,"pei-tang huang",1,21,0
+"681","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"pei-tang huang",1,4,0
+"682","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2013-04-02,"pei-tang huang",1,1,0
+"683","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"pei-tang huang",4,224,0
+"684","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"pei-tang huang",8,412,0
+"685","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"pei-tang huang",2,28,0
+"686","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2013-04-02,"pei-tang huang",1,59,0
+"687","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2013-04-02,"pei-tang huang",1,61,0
+"688","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"hendrik millner",1,38,0
+"689","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"oliver gondža",1,17,0
+"690","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"kohsuke kawaguchi",18,482,0
+"691","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2013-04-02,"jesse glick",2,122,0
+"692","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2013-04-02,"kohsuke kawaguchi",2,122,0
+"693","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"jesse glick",27,1356,0
+"694","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/handlers\/.*)",2013-04-02,"jesse glick",4,8,0
+"695","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/diagnosis\/.*)",2013-04-02,"jesse glick",3,69,0
+"696","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"jesse glick",4,167,0
+"697","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/logging\/.*)",2013-04-02,"jesse glick",5,22,0
+"698","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2013-04-02,"jesse glick",3,6,0
+"699","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"jesse glick",3,60,0
+"700","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2013-04-02,"jesse glick",4,34,0
+"701","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2013-04-02,"jesse glick",4,85,0
+"702","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"jesse glick",3,12,0
+"703","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2013-04-02,"jesse glick",5,8,0
+"704","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"jesse glick",13,728,0
+"705","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"jesse glick",26,1251,0
+"706","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2013-04-02,"jesse glick",1,1,0
+"707","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"daniel khodaparast",2,40,0
+"708","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"daniel khodaparast",1,1,0
+"709","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"seiji sogabe",7,132,0
+"710","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"imod",7,67,0
+"711","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"kohsuke kawaguchi",21,994,0
+"712","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2013-04-02,"kohsuke kawaguchi",2,4,0
+"713","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"nicolas de loof",6,103,0
+"714","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"michael koch",6,197,0
+"715","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"michael koch",1,5,0
+"716","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"jukka lehtniemi",1,5,0
+"717","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"jukka lehtniemi",1,6,0
+"718","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/logging\/.*)",2013-04-02,"kohsuke kawaguchi",2,8,0
+"719","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/handlers\/.*)",2013-04-02,"kohsuke kawaguchi",3,6,0
+"720","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2013-04-02,"kohsuke kawaguchi",3,6,0
+"721","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2013-04-02,"kohsuke kawaguchi",2,42,0
+"722","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"kohsuke kawaguchi",2,8,0
+"723","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"kohsuke kawaguchi",8,342,0
+"724","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"andrew j. erickson",1,15,0
+"725","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"alex earl",1,1,0
+"726","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"vincent latombe",1,2,0
+"727","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"imod",1,4,0
+"728","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"imod",5,101,0
+"729","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"olivier lamy",15,470,0
+"730","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"vincent latombe",2,17,0
+"731","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"kristian rosenvold",1,25,0
+"732","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"nicolas de loof",5,153,0
+"733","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"nicolas de loof",16,264,0
+"734","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"nicolas de loof",3,57,0
+"735","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2013-04-02,"nicolas de loof",1,2,0
+"736","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"nicolas de loof",1,20,0
+"737","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"nicolas de loof",3,8,0
+"738","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"nicolas de loof",6,88,0
+"739","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"nicolas de loof",7,48,0
+"740","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2013-04-02,"nicolas de loof",1,21,0
+"741","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"nicolas de loof",3,38,0
+"742","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"nicolas de loof",1,4,0
+"743","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"nicolas de loof",28,1036,0
+"744","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"nicolas de loof",21,800,0
+"745","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"nicolas de loof",6,77,0
+"746","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"seiji sogabe",2,71,0
+"747","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2013-04-02,"ryan campbell",1,2,0
+"748","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"seiji sogabe",2,8,0
+"749","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"seiji sogabe",6,134,0
+"750","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"seiji sogabe",1,53,0
+"751","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2013-04-02,"seiji sogabe",1,2,0
+"752","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"seiji sogabe",1,20,0
+"753","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"seiji sogabe",2,4,0
+"754","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"seiji sogabe",4,44,0
+"755","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"seiji sogabe",1,30,0
+"756","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"seiji sogabe",1,4,0
+"757","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"seiji sogabe",8,407,0
+"758","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"seiji sogabe",1,54,0
+"759","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"richard mortimer",1,4,0
+"760","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"richard mortimer",1,30,0
+"761","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"erik molekamp",2,8,0
+"762","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"erik molekamp",10,188,0
+"763","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/diagnosis\/.*)",2013-04-02,"erik molekamp",1,23,0
+"764","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/lifecycle\/.*)",2013-04-02,"erik molekamp",1,2,0
+"765","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"erik molekamp",20,532,0
+"766","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"erik molekamp",1,2,0
+"767","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"erik molekamp",3,44,0
+"768","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"erik molekamp",3,88,0
+"769","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"erik molekamp",5,47,0
+"770","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"erik molekamp",4,34,0
+"771","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"erik molekamp",3,71,0
+"772","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2013-04-02,"erik molekamp",1,1,0
+"773","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"erik molekamp",6,334,0
+"774","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"erik molekamp",9,503,0
+"775","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"erik molekamp",1,7,0
+"776","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"erik molekamp",4,123,0
+"777","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"erik molekamp",8,407,0
+"778","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2013-04-02,"erik molekamp",1,59,0
+"779","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2013-04-02,"erik molekamp",1,9,0
+"780","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"erik molekamp",3,65,0
+"781","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"lvotypko",3,33,0
+"782","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"olivier lamy",16,814,0
+"783","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"nicolas de loof",16,586,0
+"784","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"nicolas de loof",2,34,0
+"785","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"nicolas de loof",3,9,0
+"786","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2013-04-02,"nicolas de loof",2,111,0
+"787","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"imod",6,95,0
+"788","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"kannan manickam",2,8,0
+"789","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"alexkoon",1,17,0
+"790","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/diagnosis\/.*)",2013-04-02,"olivier lamy",2,46,0
+"791","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/init\/.*)",2013-04-02,"olivier lamy",2,48,0
+"792","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/logging\/.*)",2013-04-02,"olivier lamy",2,12,0
+"793","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/queue\/.*)",2013-04-02,"olivier lamy",5,111,0
+"794","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/node_monitors\/.*)",2013-04-02,"olivier lamy",11,201,0
+"795","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2013-04-02,"olivier lamy",1,25,0
+"796","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2013-04-02,"olivier lamy",10,135,0
+"797","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2013-04-02,"olivier lamy",5,89,0
+"798","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2013-04-02,"olivier lamy",4,56,0
+"799","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2013-04-02,"olivier lamy",2,18,0
+"800","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2013-04-02,"olivier lamy",6,181,0
+"801","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/management\/.*)",2013-04-02,"olivier lamy",12,668,0
+"802","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/scm\/.*)",2013-04-02,"olivier lamy",3,173,0
+"803","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2013-04-02,"olivier lamy",12,1260,0
+"804","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2013-04-02,"olivier lamy",2,38,0
+"805","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2013-04-02,"unknown",1,5,0
+"806","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2013-04-02,"nicolas de loof",1,1,0
+"807","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"erik lindblad",1,17,0
+"808","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2013-04-02,"kohsuke kawaguchi",1,1,0
+"809","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"wade carpenter",1,6,0
+"810","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/diagnosis\/.*)",2013-04-02,"kohsuke kawaguchi",1,23,0
+"811","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"jesse glick",13,138,1
+"812","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"jesse glick",33,601,1
+"813","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2012-09-03,"jesse glick",3,21,1
+"814","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2012-09-03,"jesse glick",3,27,1
+"815","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2012-09-03,"jesse glick",14,371,1
+"816","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2012-09-03,"jesse glick",2,4,1
+"817","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"kohsuke kawaguchi",51,802,1
+"818","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"kohsuke kawaguchi",23,404,1
+"819","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/init\/.*)",2012-09-03,"kohsuke kawaguchi",1,24,1
+"820","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"kohsuke kawaguchi",135,3142,1
+"821","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2012-09-03,"kohsuke kawaguchi",8,106,1
+"822","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/io\/.*)",2012-09-03,"kohsuke kawaguchi",1,9,1
+"823","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2012-09-03,"kohsuke kawaguchi",26,815,1
+"824","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2012-09-03,"kohsuke kawaguchi",8,1360,1
+"825","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2012-09-03,"christoph kutzinski",1,2,1
+"826","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"jesse glick",5,87,1
+"827","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/init\/.*)",2012-09-03,"jesse glick",2,48,1
+"828","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"nicolas de loof",7,71,1
+"829","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2012-09-03,"nicolas de loof",9,272,1
+"830","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"nicolas de loof",2,8,1
+"831","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"nicolas de loof",22,659,1
+"832","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2012-09-03,"nicolas de loof",5,192,1
+"833","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2012-09-03,"nicolas de loof",5,64,1
+"834","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2012-09-03,"nicolas de loof",3,99,1
+"835","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2012-09-03,"nicolas de loof",2,91,1
+"836","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2012-09-03,"kohsuke kawaguchi",2,94,1
+"837","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2012-09-03,"kohsuke kawaguchi",28,361,1
+"838","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2012-09-03,"kohsuke kawaguchi",19,370,1
+"839","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2012-09-03,"kohsuke kawaguchi",5,135,1
+"840","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"seiji sogabe",1,2,1
+"841","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2012-09-03,"seiji sogabe",1,2,1
+"842","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2012-09-03,"ohtake tomohiro",1,5,1
+"843","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2012-09-03,"jesse glick",2,25,1
+"844","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"vjuranek",7,182,1
+"845","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"vjuranek",38,909,1
+"846","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"c3johnso",1,9,1
+"847","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"esa laine",1,26,1
+"848","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"stephen connolly",4,198,1
+"849","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"kohsuke kawaguchi",67,1989,1
+"850","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/node_monitors\/.*)",2012-09-03,"kohsuke kawaguchi",6,123,1
+"851","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2012-09-03,"jesse glick",5,7,1
+"852","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"andrew bayer",1,1,1
+"853","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"seiji sogabe",1,6,1
+"854","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2012-09-03,"kohsuke kawaguchi",4,90,1
+"855","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2012-09-03,"kohsuke kawaguchi",6,45,1
+"856","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2012-09-03,"kohsuke kawaguchi",8,386,1
+"857","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2012-09-03,"kohsuke kawaguchi",2,38,1
+"858","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2012-09-03,"kohsuke kawaguchi",14,138,1
+"859","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2012-09-03,"nicolas de loof",1,2,1
+"860","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"vincent latombe",2,103,1
+"861","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2012-09-03,"jesse glick",1,7,1
+"862","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"rafa de la torre",1,12,1
+"863","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"andrew bayer",2,18,1
+"864","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2012-09-03,"andrew bayer",1,1,1
+"865","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"thorsten möllers",1,9,1
+"866","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"vincentkok",1,1,1
+"867","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"emanuele zattin",1,2,1
+"868","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"sami tikka",1,8,1
+"869","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2012-09-03,"sami tikka",2,31,1
+"870","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"andrew stucki",1,5,1
+"871","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2012-09-03,"andrew stucki",2,15,1
+"872","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2012-09-03,"jesse glick",1,3,1
+"873","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"jesse glick",5,57,1
+"874","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2012-09-03,"jesse glick",2,14,1
+"875","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2012-09-03,"jesse glick",2,18,1
+"876","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2012-09-03,"jesse glick",1,19,1
+"877","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2012-09-03,"jesse glick",2,16,1
+"878","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2012-09-03,"kohsuke kawaguchi",2,14,1
+"879","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2012-09-03,"kohsuke kawaguchi",4,33,1
+"880","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2012-09-03,"kohsuke kawaguchi",1,8,1
+"881","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2012-09-03,"vjuranek",3,24,1
+"882","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"kyle allan",3,16,1
+"883","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"kyle allan",2,22,1
+"884","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2012-09-03,"kyle allan",1,8,1
+"885","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2012-09-03,"nicolas de loof",1,8,1
+"886","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2012-09-03,"jesse glick",2,10,1
+"887","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"olivier lamy",21,874,1
+"888","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"lvotypko",3,18,1
+"889","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2012-09-03,"kohsuke kawaguchi",5,378,1
+"890","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2012-09-03,"kohsuke kawaguchi",16,1277,1
+"891","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2012-09-03,"kohsuke kawaguchi",4,12,1
+"892","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/queue\/.*)",2012-09-03,"kohsuke kawaguchi",21,463,1
+"893","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2012-09-03,"vjuranek",12,452,1
+"894","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"ryan campbell",1,2,1
+"895","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"olivier lamy",6,366,1
+"896","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/console\/.*)",2012-09-03,"olivier lamy",4,168,1
+"897","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/queue\/.*)",2012-09-03,"olivier lamy",10,222,1
+"898","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2012-09-03,"olivier lamy",2,50,1
+"899","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scheduler\/.*)",2012-09-03,"olivier lamy",2,20,1
+"900","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2012-09-03,"olivier lamy",16,378,1
+"901","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2012-09-03,"olivier lamy",8,256,1
+"902","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2012-09-03,"olivier lamy",6,152,1
+"903","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tools\/.*)",2012-09-03,"olivier lamy",4,30,1
+"904","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2012-09-03,"olivier lamy",8,52,1
+"905","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2012-09-03,"olivier lamy",8,66,1
+"906","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/scm\/.*)",2012-09-03,"olivier lamy",6,346,1
+"907","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2012-09-03,"olivier lamy",2,12,1
+"908","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2012-09-03,"olivier lamy",4,548,1
+"909","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2012-09-03,"olivier lamy",2,136,1
+"910","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"ohtake tomohiro",2,10,1
+"911","https://github.com/jenkinsci/jenkins.git","(?-mix:^cli\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"kohsuke kawaguchi",3,183,1
+"912","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/.*)",2012-09-03,"kohsuke kawaguchi",1,25,1
+"913","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2012-09-03,"kohsuke kawaguchi",2,12,1
+"914","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/scm\/.*)",2012-09-03,"kohsuke kawaguchi",3,173,1
+"915","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2012-09-03,"kohsuke kawaguchi",2,274,1
+"916","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2012-09-03,"kohsuke kawaguchi",1,68,1
+"917","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2014-02-28,"james cammarata",15,74,0
+"918","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2014-02-28,"james cammarata",21,80,0
+"919","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2014-02-28,"richard isaacson",26,1572,0
+"920","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2014-02-28,"richard isaacson",15,426,0
+"921","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2014-02-28,"michael dehaan",13,1222,0
+"922","https://github.com/ansible/ansible.git","(?-mix:^library\/notification\/.*)",2014-02-28,"michael dehaan",9,81,0
+"923","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2014-02-28,"michael dehaan",6,384,0
+"924","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"scott anderson",1,19,0
+"925","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"scott anderson",7,74,0
+"926","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2014-02-28,"jesse keating",1,15,0
+"927","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"will thames",2,12,0
+"928","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"afterburn",2,5,0
+"929","https://github.com/ansible/ansible.git","(?-mix:^library\/messaging\/.*)",2014-02-28,"james tanner",16,520,0
+"930","https://github.com/ansible/ansible.git","(?-mix:^library\/notification\/.*)",2014-02-28,"james tanner",45,402,0
+"931","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2014-02-28,"james tanner",35,165,0
+"932","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2014-02-28,"james tanner",77,737,0
+"933","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"luca berruti",1,3,0
+"934","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"timur batyrshin",3,6,0
+"935","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"timur batyrshin",19,202,0
+"936","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2014-02-28,"timur batyrshin",1,2,0
+"937","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"timur batyrshin",3,40,0
+"938","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2014-02-28,"timur batyrshin",2,6,0
+"939","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2014-02-28,"pedro romano",1,4,0
+"940","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2014-02-28,"michael porter",1,4,0
+"941","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2014-02-28,"mxxcon",1,5,0
+"942","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"manuel tiago pereira",1,1,0
+"943","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2014-02-28,"romeo theriault",1,36,0
+"944","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"heikki hokkanen",1,6,0
+"945","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"matt martz",7,52,0
+"946","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2013-11-21,"james cammarata",1,2,1
+"947","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2013-11-21,"philippe makowski",2,262,1
+"948","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2013-11-21,"serge van ginderachter",5,502,1
+"949","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2012-06-14,"misko hevery",8,201,0
+"950","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2012-06-14,"misko hevery",14,294,0
+"951","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2012-06-14,"igor minar",38,1142,0
+"952","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2012-06-14,"igor minar",21,1072,0
+"953","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2012-06-14,"igor minar",33,318,0
+"954","https://github.com/angular/angular.js.git","(?-mix:^src\/bootstrap\/.*)",2012-06-14,"igor minar",1,2,0
+"955","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2012-06-14,"igor minar",8,90,0
+"956","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2012-06-14,"igor minar",6,123,0
+"957","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2012-06-14,"igor minar",10,74,0
+"958","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/compile\.js)",2012-06-14,"igor minar",15,490,0
+"959","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2012-06-14,"igor minar",40,929,0
+"960","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/input\.js)",2012-06-14,"igor minar",15,1008,0
+"961","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/ng.*)",2012-06-14,"igor minar",84,2747,0
+"962","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/filter\/.*)",2012-06-14,"igor minar",14,129,0
+"963","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/http.*)",2012-06-14,"igor minar",21,1028,0
+"964","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/parse\.js)",2012-06-14,"igor minar",9,275,0
+"965","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/rootScope\.js)",2012-06-14,"igor minar",13,284,0
+"966","https://github.com/angular/angular.js.git","(?-mix:^src\/ngCookies\/cookies\.js)",2012-06-14,"igor minar",2,34,0
+"967","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2012-06-14,"igor minar",5,201,0
+"968","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/directive\/ngBindHtml\.js)",2012-06-14,"igor minar",2,14,0
+"969","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/filter\/linky\.js)",2012-06-14,"igor minar",1,2,0
+"970","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/sanitize\.js)",2012-06-14,"igor minar",4,24,0
+"971","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2012-06-14,"igor minar",8,31,0
+"972","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/compile\.js)",2012-06-14,"max martinsson",1,3,0
+"973","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/http.*)",2012-06-14,"vojta jina",13,214,0
+"974","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/compile\.js)",2012-06-14,"misko hevery",20,1542,0
+"975","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/input\.js)",2012-06-14,"misko hevery",11,287,0
+"976","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2012-06-14,"misko hevery",32,552,0
+"977","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2012-06-14,"misko hevery",17,386,0
+"978","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2012-06-14,"ali mills",1,4,0
+"979","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/ng.*)",2012-06-14,"misko hevery",36,285,0
+"980","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/directive\/ngBindHtml\.js)",2012-06-14,"misko hevery",2,5,0
+"981","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/filter\/.*)",2012-06-14,"misko hevery",7,510,0
+"982","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/parse\.js)",2012-06-14,"misko hevery",4,166,0
+"983","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/rootScope\.js)",2012-06-14,"misko hevery",10,122,0
+"984","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2012-06-14,"misko hevery",12,457,0
+"985","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2012-06-14,"misko hevery",36,850,0
+"986","https://github.com/angular/angular.js.git","(?-mix:^src\/bootstrap\/.*)",2012-06-14,"misko hevery",6,486,0
+"987","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2012-06-14,"misko hevery",36,936,0
+"988","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2012-06-14,"daniel gomes",1,4,0
+"989","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/ng.*)",2012-06-14,"max martinsson",1,14,0
+"990","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/rootScope\.js)",2012-06-14,"vojta jina",7,82,0
+"991","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2012-06-14,"vojta jina",12,308,0
+"992","https://github.com/angular/angular.js.git","(?-mix:^src\/bootstrap\/google-prettify\/prettify\.js)",2012-06-14,"misko hevery",2,1542,0
+"993","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2012-06-14,"vojta jina",8,40,0
+"994","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/parse\.js)",2012-06-14,"vojta jina",2,53,0
+"995","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/http.*)",2012-06-14,"misko hevery",7,198,0
+"996","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2012-06-14,"simpulton",1,30,0
+"997","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2012-06-14,"simpulton",1,6,0
+"998","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/ng.*)",2012-06-14,"johnlindquist",2,4,0
+"999","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/compile\.js)",2012-06-14,"johnlindquist",1,2,0
+"1000","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2012-06-14,"vojta jina",2,17,0
+"1001","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2012-06-14,"thibault leruitte",1,3,0
+"1002","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/input\.js)",2012-06-14,"vojta jina",21,2193,0
+"1003","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2012-06-14,"vojta jina",20,87,0
+"1004","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/ng.*)",2012-06-14,"vojta jina",7,255,0
+"1005","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/filter\/.*)",2012-06-14,"vojta jina",2,123,0
+"1006","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/directive\/ngBindHtml\.js)",2012-06-14,"vojta jina",1,26,0
+"1007","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/filter\/linky\.js)",2012-06-14,"vojta jina",1,106,0
+"1008","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/sanitize\.js)",2012-06-14,"vojta jina",1,54,0
+"1009","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2012-06-14,"vojta jina",20,499,0
+"1010","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2012-06-14,"mykhailo kotsur",1,2,0
+"1011","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/compile\.js)",2012-06-14,"vojta jina",7,263,0
+"1012","https://github.com/angular/angular.js.git","(?-mix:^i18n\/e2e\/.*)",2012-06-14,"misko hevery",1,64,0
+"1013","https://github.com/angular/angular.js.git","(?-mix:^src\/ngCookies\/cookies\.js)",2012-06-14,"misko hevery",2,81,0
+"1014","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2012-06-14,"misko hevery",3,66,0
+"1015","https://github.com/angular/angular.js.git","(?-mix:^i18n\/src\/closureSlurper\.js)",2012-06-14,"misko hevery",2,17,0
+"1016","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/sanitize\.js)",2012-06-14,"misko hevery",3,100,0
+"1017","https://github.com/angular/angular.js.git","(?-mix:^src\/ngLocale\/.*)",2012-06-14,"misko hevery",310,930,0
+"1018","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2012-06-14,"misko hevery",22,104,0
+"1019","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2012-06-14,"vojta jina",3,52,0
+"1020","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2012-06-14,"vojta jina",12,207,0
+"1021","https://github.com/angular/angular.js.git","(?-mix:^src\/ngMock\/.*)",2012-06-14,"stephane bisson",1,2,0
+"1022","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2012-06-14,"marcello nuccio",1,10,0
+"1023","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2012-06-14,"marcello nuccio",1,8,0
+"1024","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2012-06-14,"vojta jina",2,18,0
+"1025","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/http.*)",2012-06-14,"alkis",1,2,0
+"1026","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2012-06-14,"konstantin stepanov",1,4,0
+"1027","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2012-06-14,"vojta jina",2,18,0
+"1028","https://github.com/angular/angular.js.git","(?-mix:^i18n\/src\/converter\.js)",2012-06-14,"misko hevery",1,5,0
+"1029","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2012-06-14,"dhruv manek",1,1,0
+"1030","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/rootScope\.js)",2012-06-14,"mark hansen",1,2,0
+"1031","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2012-06-14,"sean gilligan",1,2,0
+"1032","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/input\.js)",2012-06-14,"bartes",1,2,0
+"1033","https://github.com/angular/angular.js.git","(?-mix:^src\/jqLite\.js)",2011-09-02,"igor minar",21,215,1
+"1034","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"igor minar",94,2359,1
+"1035","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2011-09-02,"igor minar",13,92,1
+"1036","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2011-09-02,"igor minar",7,89,1
+"1037","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2011-09-02,"misko hevery",4,295,1
+"1038","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"misko hevery",50,1640,1
+"1039","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2011-09-02,"misko hevery",6,99,1
+"1040","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2011-09-02,"di peng",1,6,1
+"1041","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2011-09-02,"misko hevery",6,254,1
+"1042","https://github.com/angular/angular.js.git","(?-mix:^src\/ngSanitize\/sanitize\.js)",2011-09-02,"misko hevery",7,181,1
+"1043","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/location\.js)",2011-09-02,"vojta jina",1,6,1
+"1044","https://github.com/angular/angular.js.git","(?-mix:^src\/auto\/injector\.js)",2011-09-02,"vojta jina",1,2,1
+"1045","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/directive\/.*)",2011-09-02,"vojta jina",1,53,1
+"1046","https://github.com/angular/angular.js.git","(?-mix:^src\/[^\/]*)",2011-09-02,"anthony lieuallen",1,10,1
+"1047","https://github.com/angular/angular.js.git","(?-mix:^src\/ng\/[^\/]*)",2011-09-02,"anthony lieuallen",1,2,1
+"1048","https://github.com/angular/angular.js.git","(?-mix:^src\/ngResource\/.*)",2011-09-02,"anthony lieuallen",1,2,1
+"1049","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2011-09-02,"elliott sprehn",30,1205,1
+"1050","https://github.com/angular/angular.js.git","(?-mix:^src\/ngScenario\/.*)",2011-09-02,"andres ornelas",1,63,1
+"1051","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"timmy willison",4,55,0
+"1052","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"timmy willison",6,32,0
+"1053","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"daniel chatfield",2,5,0
+"1054","https://github.com/matthieu-foucault/jquery.git","src/support.js",2012-08-09,"daniel chatfield",1,6,0
+"1055","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2012-08-09,"elijah manor",1,7,0
+"1056","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2012-08-09,"richard gibson",4,14,0
+"1057","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2011-11-03,"dmethvin",2,102,1
+"1058","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"dmethvin",17,340,1
+"1059","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2011-11-03,"dmethvin",7,150,1
+"1060","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2011-11-03,"rick waldron",1,0,1
+"1061","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"rick waldron",8,104,1
+"1062","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2011-11-03,"rick waldron",3,34,1
+"1063","https://github.com/matthieu-foucault/jquery.git","src/outro.js",2011-11-03,"rick waldron",1,0,1
+"1064","https://github.com/matthieu-foucault/jquery.git","src/offset.js",2011-11-03,"rick waldron",2,45,1
+"1065","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"rick waldron",6,52,1
+"1066","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"rick waldron",24,1320,1
+"1067","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"rick waldron",5,124,1
+"1068","https://github.com/matthieu-foucault/jquery.git","src/css.js",2011-11-03,"rick waldron",6,26,1
+"1069","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2011-11-03,"rick waldron",10,185,1
+"1070","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2011-11-03,"rick waldron",3,6,1
+"1071","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"rick waldron",7,58,1
+"1072","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"dmethvin",14,344,1
+"1073","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2011-11-03,"julian aubourg",8,65,1
+"1074","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2011-11-03,"julian aubourg",7,237,1
+"1075","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"julian aubourg",1,5,1
+"1076","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"julian aubourg",2,12,1
+"1077","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2011-11-03,"rick waldron",3,166,1
+"1078","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"timmy willison",6,114,1
+"1079","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"mathias bynens",1,2,1
+"1080","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2011-11-03,"timmy willison",37,516,1
+"1081","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2011-11-03,"dmethvin",11,79,1
+"1082","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"julian aubourg",1,4,1
+"1083","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"timmy willison",1,8,1
+"1084","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2011-11-03,"dmethvin",8,199,1
+"1085","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"julian aubourg",3,39,1
+"1086","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"shi chuan",1,2,1
+"1087","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2011-11-03,"timmy willison",4,32,1
+"1088","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2011-11-03,"dmethvin",2,273,1
+"1089","https://github.com/matthieu-foucault/jquery.git","src/ajax/jsonp.js",2011-11-03,"dmethvin",1,30,1
+"1090","https://github.com/matthieu-foucault/jquery.git","src/ajax/script.js",2011-11-03,"dmethvin",1,2,1
+"1091","https://github.com/matthieu-foucault/jquery.git","src/ajax/xhr.js",2011-11-03,"dmethvin",1,55,1
+"1092","https://github.com/matthieu-foucault/jquery.git","src/intro.js",2011-11-03,"dmethvin",1,4,1
+"1093","https://github.com/matthieu-foucault/jquery.git","src/sizzle-jquery.js",2011-11-03,"dmethvin",1,3,1
+"1094","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2011-11-03,"julian aubourg",2,304,1
+"1095","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"mathias bynens",1,10,1
+"1096","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"corey frang",3,92,1
+"1097","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"corey frang",2,30,1
+"1098","https://github.com/matthieu-foucault/jquery.git","src/core.js",2011-11-03,"jrburke",2,118,1
+"1099","https://github.com/matthieu-foucault/jquery.git","src/ajax.js",2011-11-03,"jrburke",1,81,1
+"1100","https://github.com/matthieu-foucault/jquery.git","src/ajax/xhr.js",2011-11-03,"jrburke",1,46,1
+"1101","https://github.com/matthieu-foucault/jquery.git","src/attributes.js",2011-11-03,"jrburke",1,278,1
+"1102","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2011-11-03,"jrburke",1,257,1
+"1103","https://github.com/matthieu-foucault/jquery.git","src/css.js",2011-11-03,"jrburke",1,130,1
+"1104","https://github.com/matthieu-foucault/jquery.git","src/data.js",2011-11-03,"jrburke",1,118,1
+"1105","https://github.com/matthieu-foucault/jquery.git","src/deferred.js",2011-11-03,"jrburke",1,168,1
+"1106","https://github.com/matthieu-foucault/jquery.git","src/dimensions.js",2011-11-03,"jrburke",1,17,1
+"1107","https://github.com/matthieu-foucault/jquery.git","src/effects.js",2011-11-03,"jrburke",1,217,1
+"1108","https://github.com/matthieu-foucault/jquery.git","src/event.js",2011-11-03,"jrburke",1,1028,1
+"1109","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"jrburke",1,103,1
+"1110","https://github.com/matthieu-foucault/jquery.git","src/outro.js",2011-11-03,"jrburke",1,1,1
+"1111","https://github.com/matthieu-foucault/jquery.git","src/queue.js",2011-11-03,"jrburke",1,34,1
+"1112","https://github.com/matthieu-foucault/jquery.git","src/sizzle-jquery.js",2011-11-03,"jrburke",1,3,1
+"1113","https://github.com/matthieu-foucault/jquery.git","src/support.js",2011-11-03,"jrburke",1,63,1
+"1114","https://github.com/matthieu-foucault/jquery.git","src/traversing.js",2011-11-03,"jrburke",1,17,1
+"1115","https://github.com/matthieu-foucault/jquery.git","src/manipulation.js",2011-11-03,"corey frang",1,27,1
+"1116","https://github.com/matthieu-foucault/jquery.git","src/callbacks.js",2011-11-03,"rick waldron",1,257,1
+"1117","https://github.com/matthieu-foucault/jquery.git","src/sizzle-jquery.js",2011-11-03,"rick waldron",1,3,1
+"1118","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/hash\/.*)",2009-03-16,"jonathan del strother",1,5,0
+"1119","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/hash\/.*)",2009-03-16,"bradford folkens",1,6,0
+"1120","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/json\/.*)",2009-03-16,"ubiratan pires alberton",1,11,0
+"1121","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/xml_mini.*)",2009-03-16,"david heinemeier hansson",3,345,0
+"1122","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/string\/.*)",2009-03-16,"sam granieri",1,4,0
+"1123","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/array\/.*)",2009-03-16,"jeremy kemper",2,20,0
+"1124","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/array\/.*)",2009-03-16,"david heinemeier hansson",1,1,0
+"1125","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/array\/.*)",2009-03-16,"guillermo Álvarez",1,16,0
+"1126","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/array\/.*)",2009-03-16,"will bryant",1,7,0
+"1127","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/time\/.*)",2009-03-16,"zachary zolton",1,2,0
+"1128","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/string\/.*)",2009-03-16,"jeremy kemper",1,2,0
+"1129","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/json\/encoders\/.*)",2009-03-16,"jeremy kemper",1,11,0
+"1130","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/session\/.*)",2009-03-16,"david heinemeier hansson",1,19,0
+"1131","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/module\/.*)",2008-10-24,"daniel schierbeck",4,33,1
+"1132","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/array\/.*)",2008-10-24,"tarmo tänav",1,3,1
+"1133","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2008-10-24,"tom stuart",1,4,1
+"1134","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"cody fauser",1,36,1
+"1135","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/formats\/.*)",2008-10-24,"cody fauser",1,2,1
+"1136","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"andrew kaspick",2,17,1
+"1137","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"tarmo tänav",2,26,1
+"1138","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"manfred stienstra",6,50,1
+"1139","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"eugene pimenov",1,10,1
+"1140","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/array\/.*)",2008-10-24,"pratik naik",2,30,1
+"1141","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/base64\/.*)",2008-10-24,"pratik naik",1,3,1
+"1142","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/object\/.*)",2008-10-24,"pratik naik",1,26,1
+"1143","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"matthew moore",1,3,1
+"1144","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"norbert crombach",1,74,1
+"1145","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"aliaksey kandratsenka",4,39,1
+"1146","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/rails_generator\/.*)",2008-10-24,"antonio cangiano",1,2,1
+"1147","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/object\/.*)",2008-10-24,"nick sieger",1,21,1
+"1148","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"david masover",1,4,1
+"1149","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/hash\/.*)",2008-10-24,"adam",1,2,1
+"1150","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"=?utf-8?q?adam=20cig=c3=a1nek?=",1,8,1
+"1151","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"michael koziarski",3,409,1
+"1152","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/string\/.*)",2008-10-24,"michael koziarski",2,79,1
+"1153","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/multibyte\/.*)",2008-10-24,"michael koziarski",3,782,1
+"1154","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"martin rehfeld",1,2,1
+"1155","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"joshua peek",2,354,1
+"1156","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/string\/.*)",2008-10-24,"manfred stienstra",5,116,1
+"1157","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/multibyte\/.*)",2008-10-24,"manfred stienstra",10,905,1
+"1158","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"manfred stienstra",2,58,1
+"1159","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/assertions\/.*)",2008-10-24,"rick",2,112,1
+"1160","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/caching\/.*)",2008-10-24,"rick",2,14,1
+"1161","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2008-10-24,"rick",6,51,1
+"1162","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/session\/.*)",2008-10-24,"rick",1,3,1
+"1163","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/template_handlers\/.*)",2008-10-24,"rick",1,2,1
+"1164","https://github.com/rails/rails.git","(?-mix:^activemodel\/lib\/active_model\/state_machine\/.*)",2008-10-24,"rick",1,4,1
+"1165","https://github.com/rails/rails.git","(?-mix:^activemodel\/lib\/active_model\/validations\/.*)",2008-10-24,"rick",3,10,1
+"1166","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/formats\/.*)",2008-10-24,"rick",2,6,1
+"1167","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/array\/.*)",2008-10-24,"rick",1,12,1
+"1168","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/bigdecimal\/.*)",2008-10-24,"rick",1,32,1
+"1169","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/class\/.*)",2008-10-24,"rick",1,0,1
+"1170","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/date\/.*)",2008-10-24,"rick",2,32,1
+"1171","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/date_time\/.*)",2008-10-24,"rick",1,14,1
+"1172","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/file\/.*)",2008-10-24,"rick",1,2,1
+"1173","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/hash\/.*)",2008-10-24,"rick",2,2,1
+"1174","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/module\/.*)",2008-10-24,"rick",4,57,1
+"1175","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/object\/.*)",2008-10-24,"rick",1,5,1
+"1176","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/range\/.*)",2008-10-24,"rick",1,4,1
+"1177","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/string\/.*)",2008-10-24,"rick",2,32,1
+"1178","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/time\/.*)",2008-10-24,"rick",2,19,1
+"1179","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/multibyte\/.*)",2008-10-24,"rick",1,5,1
+"1180","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/values\/.*)",2008-10-24,"rick",1,2,1
+"1181","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/time\/.*)",2008-10-24,"carlos brando",1,2,1
+"1182","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"edgar j. suarez",1,2,1
+"1183","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"pelle braendgaard",2,7,1
+"1184","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/session\/.*)",2008-10-24,"pelle braendgaard",1,3,1
+"1185","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/date\/.*)",2008-10-24,"clemens kofler",1,15,1
+"1186","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/date_time\/.*)",2008-10-24,"clemens kofler",1,14,1
+"1187","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/time\/.*)",2008-10-24,"clemens kofler",1,15,1
+"1188","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"clemens kofler",1,12,1
+"1189","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"frederick cheung",3,13,1
+"1190","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"geoff buesing",1,2,1
+"1191","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/file\/.*)",2008-10-24,"michael koziarski",1,2,1
+"1192","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/assertions\/.*)",2008-10-24,"pratik naik",1,28,1
+"1193","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/hash\/.*)",2008-10-24,"mislav marohnić",1,2,1
+"1194","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"rich cavanaugh",1,20,1
+"1195","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2008-10-24,"emilio tagua",1,13,1
+"1196","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/cache\/.*)",2008-10-24,"joshua peek",2,80,1
+"1197","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"rsl",1,13,1
+"1198","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/values\/.*)",2008-10-24,"jamis buck",1,2,1
+"1199","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"rob anderton",2,114,1
+"1200","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"sven fuchs",1,13,1
+"1201","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/string\/.*)",2008-10-24,"david heinemeier hansson",2,38,1
+"1202","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"david heinemeier hansson",6,51,1
+"1203","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"alastair brunton",1,10,1
+"1204","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"jose fernandez",1,15,1
+"1205","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"david heinemeier hansson",5,14,1
+"1206","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"u-escapee\mack",1,2,1
+"1207","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2008-10-24,"david heinemeier hansson",1,5,1
+"1208","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"david heinemeier hansson",2,48,1
+"1209","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2008-10-24,"akira matsuda",2,18,1
+"1210","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"jeremy kemper",12,65,1
+"1211","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"jeremy kemper",24,318,1
+"1212","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2008-10-24,"jeremy kemper",5,51,1
+"1213","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/.*)",2008-10-24,"jeremy kemper",9,208,1
+"1214","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/cache\/.*)",2008-10-24,"jeremy kemper",1,0,1
+"1215","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/hash\/.*)",2008-10-24,"jeremy kemper",1,0,1
+"1216","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/bigdecimal\/.*)",2008-10-24,"jeremy kemper",1,32,1
+"1217","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2008-10-24,"matt jones",2,13,1
+"1218","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/module\/.*)",2008-10-24,"jeremy kemper",5,61,1
+"1219","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"nick sieger",35,1157,1
+"1220","https://github.com/rails/rails.git","(?-mix:^activemodel\/lib\/active_model\/validations\/.*)",2008-10-24,"pratik naik",1,2,1
+"1221","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"pratik naik",2,118,1
+"1222","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/commands\/.*)",2008-10-24,"pratik naik",1,2,1
+"1223","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"adam keys",1,20,1
+"1224","https://github.com/rails/rails.git","(?-mix:^railties\/environments\/.*)",2008-10-24,"nigel ramsay",1,2,1
+"1225","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/class\/.*)",2008-10-24,"clemens kofler",1,0,1
+"1226","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"clemens kofler",2,16,1
+"1227","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"clemens kofler",5,70,1
+"1228","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"clemens kofler",2,8,1
+"1229","https://github.com/rails/rails.git","(?-mix:^activemodel\/lib\/active_model\/validations\/.*)",2008-10-24,"clemens kofler",3,8,1
+"1230","https://github.com/rails/rails.git","(?-mix:^activemodel\/lib\/active_model\/state_machine\/.*)",2008-10-24,"clemens kofler",1,4,1
+"1231","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2008-10-24,"clemens kofler",1,6,1
+"1232","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"clemens kofler",3,16,1
+"1233","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"jonathan del strother",1,2,1
+"1234","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"jeremy kemper",3,51,1
+"1235","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/assertions\/.*)",2008-10-24,"jeremy kemper",1,76,1
+"1236","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/caching\/.*)",2008-10-24,"jeremy kemper",4,18,1
+"1237","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"jeremy kemper",1,10,1
+"1238","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/template_handlers\/.*)",2008-10-24,"jeremy kemper",1,2,1
+"1239","https://github.com/rails/rails.git","(?-mix:^activemodel\/lib\/active_model\/.*)",2008-10-24,"jeremy kemper",2,4,1
+"1240","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"jeremy kemper",6,59,1
+"1241","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/formats\/.*)",2008-10-24,"jeremy kemper",2,6,1
+"1242","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/object\/.*)",2008-10-24,"jeremy kemper",2,10,1
+"1243","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/time\/.*)",2008-10-24,"jeremy kemper",2,4,1
+"1244","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2008-10-24,"jeremy kemper",3,5,1
+"1245","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"iain hecker",1,3,1
+"1246","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"pratik naik",1,24,1
+"1247","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/routing\/.*)",2008-10-24,"luke melia",1,5,1
+"1248","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/.*)",2008-10-24,"joshua peek",3,28,1
+"1249","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/template_handlers\/.*)",2008-10-24,"joshua peek",1,2,1
+"1250","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_view\/helpers\/.*)",2008-10-24,"emilio tagua",1,2,1
+"1251","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/.*)",2008-10-24,"rasik pandey",4,47,1
+"1252","https://github.com/rails/rails.git","(?-mix:^activeresource\/lib\/active_resource\/formats\/.*)",2008-10-24,"rasik pandey",2,6,1
+"1253","https://github.com/rails/rails.git","(?-mix:^actionpack\/lib\/action_controller\/assertions\/.*)",2008-10-24,"emilio tagua",1,76,1
+"1254","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/.*)",2008-10-24,"hongli lai (phusion)",1,11,1
+"1255","https://github.com/rails/rails.git","(?-mix:^activesupport\/lib\/active_support\/core_ext\/module\/.*)",2008-10-24,"hongli lai (phusion)",3,18,1
+"1256","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"tom stuart",1,6,1
+"1257","https://github.com/rails/rails.git","(?-mix:^activerecord\/lib\/.*)",2008-10-24,"joshua peek",1,2,1
+"1258","https://github.com/rails/rails.git","(?-mix:^actionmailer\/.*)",2008-10-24,"james mead",1,19,1
+"1259","https://github.com/rails/rails.git","(?-mix:^railties\/lib\/.*)",2008-10-24,"nick sieger",1,1,1
+"1260","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"kohsuke kawaguchi",92,1282,0
+"1261","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scheduler\/.*)",2013-04-02,"kohsuke kawaguchi",2,6,0
+"1262","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scm\/.*)",2013-04-02,"kohsuke kawaguchi",2,8,0
+"1263","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2013-04-02,"kohsuke kawaguchi",43,598,0
+"1264","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2013-04-02,"kohsuke kawaguchi",33,605,0
+"1265","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"kohsuke kawaguchi",32,377,0
+"1266","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"kohsuke kawaguchi",69,1991,0
+"1267","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"kohsuke kawaguchi",49,1068,0
+"1268","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/local_repo\/.*)",2013-04-02,"kohsuke kawaguchi",2,28,0
+"1269","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2013-04-02,"jesse glick",10,106,0
+"1270","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2013-04-02,"kohsuke kawaguchi",9,108,0
+"1271","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"seiji sogabe",9,393,0
+"1272","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/local_repo\/.*)",2013-04-02,"seiji sogabe",1,15,0
+"1273","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/local_repo\/.*)",2013-04-02,"jesse glick",3,17,0
+"1274","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"vjuranek",63,2032,0
+"1275","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"kohsuke kawaguchi",11,193,0
+"1276","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/xstream\/.*)",2013-04-02,"kohsuke kawaguchi",4,112,0
+"1277","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2013-04-02,"kohsuke kawaguchi",31,2417,0
+"1278","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2013-04-02,"jesse glick",5,65,0
+"1279","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"olivier lamy",2,56,0
+"1280","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2013-04-02,"olivier lamy",3,508,0
+"1281","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"olivier lamy",44,1654,0
+"1282","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"olivier lamy",19,667,0
+"1283","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"pei-tang huang",4,65,0
+"1284","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/csrf\/.*)",2013-04-02,"jesse glick",10,142,0
+"1285","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/matrix\/.*)",2013-04-02,"christoph kutzinski",5,104,0
+"1286","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/labels\/.*)",2013-04-02,"christoph kutzinski",3,6,0
+"1287","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2013-04-02,"christoph kutzinski",2,11,0
+"1288","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/os\/windows\/.*)",2013-04-02,"christoph kutzinski",2,4,0
+"1289","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2013-04-02,"christoph kutzinski",6,317,0
+"1290","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/jna\/.*)",2013-04-02,"christoph kutzinski",3,12,0
+"1291","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/xstream\/.*)",2013-04-02,"christoph kutzinski",2,56,0
+"1292","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2013-04-02,"christoph kutzinski",16,530,0
+"1293","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2013-04-02,"christoph kutzinski",38,686,0
+"1294","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"christoph kutzinski",5,44,0
+"1295","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2013-04-02,"christoph kutzinski",6,84,0
+"1296","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/io\/.*)",2013-04-02,"christoph kutzinski",3,183,0
+"1297","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2013-04-02,"christoph kutzinski",5,306,0
+"1298","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"christoph kutzinski",28,2152,0
+"1299","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2013-04-02,"vjuranek",2,18,0
+"1300","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2013-04-02,"pei-tang huang",2,127,0
+"1301","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"lvotypko",3,10,0
+"1302","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2013-04-02,"johno crawford",2,5,0
+"1303","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"fred g",1,5,0
+"1304","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2013-04-02,"justin santa barbara",1,2,0
+"1305","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"vladimir kravets",1,2,0
+"1306","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"lars hvile",1,12,0
+"1307","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"imod",9,183,0
+"1308","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2013-04-02,"imod",1,15,0
+"1309","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2013-04-02,"christoph kutzinski",1,21,0
+"1310","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2013-04-02,"vincent latombe",4,66,0
+"1311","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2013-04-02,"cjo9900",1,4,0
+"1312","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/mvn\/.*)",2013-04-02,"imod",57,598,0
+"1313","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"kyle allan",2,8,1
+"1314","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"vjuranek",15,460,1
+"1315","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/scheduler\/.*)",2012-09-03,"vjuranek",1,10,1
+"1316","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2012-09-03,"vjuranek",5,67,1
+"1317","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/security\/.*)",2012-09-03,"vjuranek",8,189,1
+"1318","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/slaves\/.*)",2012-09-03,"vjuranek",4,128,1
+"1319","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2012-09-03,"vjuranek",1,8,1
+"1320","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/junit\/.*)",2012-09-03,"vjuranek",3,76,1
+"1321","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/triggers\/.*)",2012-09-03,"vjuranek",4,26,1
+"1322","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/util\/.*)",2012-09-03,"vjuranek",4,33,1
+"1323","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2012-09-03,"vjuranek",4,165,1
+"1324","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2012-09-03,"vjuranek",6,251,1
+"1325","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/scm\/.*)",2012-09-03,"vjuranek",3,173,1
+"1326","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/security\/.*)",2012-09-03,"vjuranek",1,6,1
+"1327","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/slaves\/.*)",2012-09-03,"vjuranek",2,274,1
+"1328","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2012-09-03,"vjuranek",4,382,1
+"1329","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2012-09-03,"vjuranek",1,426,1
+"1330","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2012-09-03,"vjuranek",9,392,1
+"1331","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2012-09-03,"vjuranek",1,6,1
+"1332","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/lazy\/.*)",2012-09-03,"vjuranek",1,68,1
+"1333","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"dean yu",1,2,1
+"1334","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2012-09-03,"dean yu",1,2,1
+"1335","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"olivier lamy",70,1792,1
+"1336","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"olivier lamy",32,858,1
+"1337","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/cli\/.*)",2012-09-03,"olivier lamy",10,336,1
+"1338","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/search\/.*)",2012-09-03,"olivier lamy",10,134,1
+"1339","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2012-09-03,"olivier lamy",3,14,1
+"1340","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/.*)",2012-09-03,"olivier lamy",6,221,1
+"1341","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/model\/.*)",2012-09-03,"olivier lamy",12,416,1
+"1342","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/.*)",2012-09-03,"olivier lamy",6,385,1
+"1343","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/jenkins\/util\/xstream\/.*)",2012-09-03,"olivier lamy",1,414,1
+"1344","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2012-09-03,"olivier lamy",17,770,1
+"1345","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/tasks\/.*)",2012-09-03,"nicolas de loof",1,2,1
+"1346","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/.*)",2012-09-03,"wolfgarnet",1,13,1
+"1347","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2012-09-03,"wolfgarnet",1,56,1
+"1348","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/.*)",2012-09-03,"christoph kutzinski",1,14,1
+"1349","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/model\/listeners\/.*)",2012-09-03,"olivier lamy",2,4,1
+"1350","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/node_monitors\/.*)",2012-09-03,"olivier lamy",4,54,1
+"1351","https://github.com/jenkinsci/jenkins.git","(?-mix:^maven-plugin\/src\/main\/java\/hudson\/maven\/reporters\/.*)",2012-09-03,"olivier lamy",2,12,1
+"1352","https://github.com/jenkinsci/jenkins.git","(?-mix:^core\/src\/main\/java\/hudson\/.*)",2012-09-03,"lvotypko",2,4,1
+"1353","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"michael dehaan",47,1460,0
+"1354","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"michael dehaan",147,10435,0
+"1355","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"michael dehaan",186,6791,0
+"1356","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"james cammarata",610,19683,0
+"1357","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"michael dehaan",23,1469,0
+"1358","https://github.com/ansible/ansible.git","(?-mix:^library\/messaging\/.*)",2014-02-28,"michael dehaan",11,646,0
+"1359","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2014-02-28,"michael dehaan",6,162,0
+"1360","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2014-02-28,"michael dehaan",12,343,0
+"1361","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"michael dehaan",31,1462,0
+"1362","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"laurens van houtven",1,1,0
+"1363","https://github.com/ansible/ansible.git","(?-mix:^library\/messaging\/.*)",2014-02-28,"chris sinchok",1,2,0
+"1364","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"gilles cornu",1,6,0
+"1365","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"richard isaacson",41,2273,0
+"1366","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"richard isaacson",299,11465,0
+"1367","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"richard isaacson",247,23940,0
+"1368","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2014-02-28,"richard isaacson",14,615,0
+"1369","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"james tanner",826,65917,0
+"1370","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"james tanner",955,25091,0
+"1371","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2014-02-28,"james tanner",65,2401,0
+"1372","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"james tanner",169,12934,0
+"1373","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2014-02-28,"michael dehaan",9,39,0
+"1374","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"muffl0n",3,10,0
+"1375","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2014-02-28,"chris church",1,24,0
+"1376","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"james cammarata",576,40712,0
+"1377","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2014-02-28,"james cammarata",23,87,0
+"1378","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"james cammarata",66,3528,0
+"1379","https://github.com/ansible/ansible.git","(?-mix:^library\/monitoring\/.*)",2014-02-28,"james cammarata",20,224,0
+"1380","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2014-02-28,"james cammarata",21,574,0
+"1381","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"james cammarata",113,1270,0
+"1382","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2014-02-28,"james cammarata",32,864,0
+"1383","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"james cammarata",88,3757,0
+"1384","https://github.com/ansible/ansible.git","(?-mix:^library\/utilities\/.*)",2014-02-28,"james cammarata",24,990,0
+"1385","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2014-02-28,"james cammarata",34,163,0
+"1386","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"patryk zawadzki",1,2,0
+"1387","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2014-02-28,"james tanner",29,109,0
+"1388","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"james tanner",77,1673,0
+"1389","https://github.com/ansible/ansible.git","(?-mix:^library\/monitoring\/.*)",2014-02-28,"james tanner",23,112,0
+"1390","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2014-02-28,"james tanner",15,138,0
+"1391","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"james tanner",185,1920,0
+"1392","https://github.com/ansible/ansible.git","(?-mix:^library\/utilities\/.*)",2014-02-28,"james tanner",24,623,0
+"1393","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2014-02-28,"james tanner",31,323,0
+"1394","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"brian coca",2,62,0
+"1395","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"joshua conner",2,296,0
+"1396","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"chris church",1,16,0
+"1397","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2014-02-28,"richard isaacson",10,250,0
+"1398","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"kent r. spillner",1,39,0
+"1399","https://github.com/ansible/ansible.git","(?-mix:^library\/messaging\/.*)",2014-02-28,"james cammarata",14,1576,0
+"1400","https://github.com/ansible/ansible.git","(?-mix:^library\/notification\/.*)",2014-02-28,"james cammarata",14,90,0
+"1401","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"richard isaacson",57,3673,0
+"1402","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"stefan j. betz",1,20,0
+"1403","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"hagai",1,2,0
+"1404","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2014-02-28,"richard isaacson",18,77,0
+"1405","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"richard isaacson",64,1660,0
+"1406","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"scott patten",1,12,0
+"1407","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"james laska",1,8,0
+"1408","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"muffl0n",1,4,0
+"1409","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"root",1,2,0
+"1410","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2014-02-28,"james martin",1,5,0
+"1411","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"brian coca",1,4,0
+"1412","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2014-02-28,"matthew phipps",2,50,0
+"1413","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"jeromew",1,51,0
+"1414","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"nils pascal illenseer",1,2,0
+"1415","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"niku toivola",3,5,0
+"1416","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"martin thorsen ranang",1,4,0
+"1417","https://github.com/ansible/ansible.git","(?-mix:^library\/messaging\/.*)",2014-02-28,"richard isaacson",14,968,0
+"1418","https://github.com/ansible/ansible.git","(?-mix:^library\/monitoring\/.*)",2014-02-28,"richard isaacson",16,98,0
+"1419","https://github.com/ansible/ansible.git","(?-mix:^library\/notification\/.*)",2014-02-28,"richard isaacson",20,165,0
+"1420","https://github.com/ansible/ansible.git","(?-mix:^library\/utilities\/.*)",2014-02-28,"richard isaacson",9,401,0
+"1421","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2014-02-28,"richard isaacson",15,943,0
+"1422","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"mxxcon",1,14,0
+"1423","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"paul durivage",3,8,0
+"1424","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"amir h. hajizamani",4,6,0
+"1425","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"ilya kuznetsov",1,2,0
+"1426","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"peter gehres",1,1,0
+"1427","https://github.com/ansible/ansible.git","(?-mix:^library\/utilities\/.*)",2014-02-28,"michael dehaan",4,145,0
+"1428","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"chris hoffman",1,2,0
+"1429","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"brian coca",3,11,0
+"1430","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"will thames",10,269,0
+"1431","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"pavel antonov",5,556,0
+"1432","https://github.com/ansible/ansible.git","(?-mix:^library\/monitoring\/.*)",2014-02-28,"michael dehaan",9,56,0
+"1433","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"matt martz",6,180,0
+"1434","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2014-02-28,"jon chen",1,2,0
+"1435","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"xyrix",4,25,0
+"1436","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"kustodian",1,2,0
+"1437","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2014-02-28,"wim",1,12,0
+"1438","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"brian coca",1,2,0
+"1439","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2014-02-28,"adam heath",2,7,0
+"1440","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2014-02-28,"jakub jirutka",1,15,0
+"1441","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2013-11-21,"james tanner",209,42920,1
+"1442","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"james tanner",1832,155242,1
+"1443","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"james tanner",1306,181505,1
+"1444","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2013-11-21,"james tanner",84,5319,1
+"1445","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2013-11-21,"james tanner",215,22325,1
+"1446","https://github.com/ansible/ansible.git","(?-mix:^library\/notification\/.*)",2013-11-21,"james tanner",51,103,1
+"1447","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"james tanner",507,22454,1
+"1448","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2013-11-21,"james tanner",150,9431,1
+"1449","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"james tanner",436,37754,1
+"1450","https://github.com/ansible/ansible.git","(?-mix:^library\/utilities\/.*)",2013-11-21,"james tanner",68,6869,1
+"1451","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2013-11-21,"james tanner",143,9261,1
+"1452","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"james tanner",231,40331,1
+"1453","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"michael dehaan",238,18984,1
+"1454","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"matt thompson",1,2,1
+"1455","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"michael dehaan",38,7351,1
+"1456","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"michael dehaan",351,49091,1
+"1457","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2013-11-21,"michael dehaan",33,4473,1
+"1458","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2013-11-21,"michael dehaan",42,7090,1
+"1459","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"michael dehaan",82,3820,1
+"1460","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"michael dehaan",85,2582,1
+"1461","https://github.com/ansible/ansible.git","(?-mix:^library\/utilities\/.*)",2013-11-21,"michael dehaan",18,46,1
+"1462","https://github.com/ansible/ansible.git","(?-mix:^library\/web_infrastructure\/.*)",2013-11-21,"michael dehaan",29,1044,1
+"1463","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"eric johnson",1,16,1
+"1464","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"eric johnson",1,10,1
+"1465","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"brian coca",5,125,1
+"1466","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2013-11-21,"michael dehaan",18,216,1
+"1467","https://github.com/ansible/ansible.git","(?-mix:^library\/notification\/.*)",2013-11-21,"michael dehaan",6,9,1
+"1468","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2013-11-21,"michael dehaan",23,948,1
+"1469","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"james martin",1,6,1
+"1470","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"matt haggard",1,12,1
+"1471","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"skylar saveland",1,2,1
+"1472","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"stoned elipot",1,25,1
+"1473","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"michael scherer",3,26,1
+"1474","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"tom berger",1,2,1
+"1475","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"matt martz",9,1135,1
+"1476","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"arkadi shishlov",1,4,1
+"1477","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"laurent coustet",1,13,1
+"1478","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"berend de boer",1,209,1
+"1479","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"joe maller",1,4,1
+"1480","https://github.com/ansible/ansible.git","(?-mix:^library\/monitoring\/.*)",2013-11-21,"james tanner",24,595,1
+"1481","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2013-11-21,"james tanner",25,287,1
+"1482","https://github.com/ansible/ansible.git","(?-mix:^plugins\/callbacks\/.*\.py)",2013-11-21,"james tanner",25,275,1
+"1483","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"stoned elipot",1,16,1
+"1484","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"michael j. schultz",1,4,1
+"1485","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"philippe makowski",7,206,1
+"1486","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"philippe makowski",5,135,1
+"1487","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"philippe makowski",6,593,1
+"1488","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"philippe makowski",2,8,1
+"1489","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"philippe makowski",1,6,1
+"1490","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"hiroaki nakamura",2,7,1
+"1491","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"serge van ginderachter",4,5,1
+"1492","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"rob szewczyk",1,4,1
+"1493","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"alexander kuznecov",1,4,1
+"1494","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"chris church",1,9,1
+"1495","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"alan descoins",1,6,1
+"1496","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"christopher h. laco",5,481,1
+"1497","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"matthias vogelgesang",1,157,1
+"1498","https://github.com/ansible/ansible.git","(?-mix:^library\/utilities\/.*)",2013-11-21,"michael scherer",5,15,1
+"1499","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"jim richardson",2,12,1
+"1500","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"james cammarata",2,10,1
+"1501","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"will thames",1,4,1
+"1502","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"cove schneider",2,151,1
+"1503","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"mohan krishnan",2,16,1
+"1504","https://github.com/ansible/ansible.git","(?-mix:^library\/network\/.*)",2013-11-21,"michael dehaan",4,44,1
+"1505","https://github.com/ansible/ansible.git","(?-mix:^plugins\/callbacks\/.*\.py)",2013-11-21,"michael dehaan",4,44,1
+"1506","https://github.com/ansible/ansible.git","plugins/inventory/gce.ini",2013-11-21,"michael dehaan",5,235,1
+"1507","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"steve weber",1,4,1
+"1508","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"yegor minin",1,54,1
+"1509","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"alan fairless",6,191,1
+"1510","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"alan fairless",1,2,1
+"1511","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"brian cavagnolo",1,2,1
+"1512","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"michael scherer",6,40,1
+"1513","https://github.com/ansible/ansible.git","(?-mix:^library\/source_control\/.*)",2013-11-21,"christian goetze",1,74,1
+"1514","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"scott dunlop",1,4,1
+"1515","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"sheldon hearn",1,2,1
+"1516","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"chrisalbright",1,2,1
+"1517","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"matt martz",6,24,1
+"1518","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"marcus cobden",1,3,1
+"1519","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"paul durivage",8,264,1
+"1520","https://github.com/ansible/ansible.git","(?-mix:^library\/packaging\/.*)",2013-11-21,"thomas omans",1,2,1
+"1521","https://github.com/ansible/ansible.git","(?-mix:^library\/net_infrastructure\/.*)",2013-11-21,"matt hite",1,4,1
+"1522","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"james cammarata",4,104,1
+"1523","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"peter gehres",1,239,1
+"1524","https://github.com/ansible/ansible.git","(?-mix:^library\/monitoring\/.*)",2013-11-21,"michael dehaan",1,14,1
+"1525","https://github.com/ansible/ansible.git","(?-mix:^library\/cloud\/.*)",2013-11-21,"christian berendt",1,0,1
+"1526","https://github.com/ansible/ansible.git","(?-mix:^plugins\/inventory\/.*\.py)",2013-11-21,"sebastien goasguen",1,355,1
+"1527","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"jan-piet mens",2,76,1
+"1528","https://github.com/ansible/ansible.git","(?-mix:^library\/database\/.*)",2013-11-21,"maykel moya",1,2,1
+"1529","https://github.com/ansible/ansible.git","(?-mix:^library\/files\/.*)",2013-11-21,"dylan martin",3,278,1
+"1530","https://github.com/ansible/ansible.git","(?-mix:^lib\/ansible\/[^\/]*)",2013-11-21,"dylan martin",1,77,1
+"1531","https://github.com/ansible/ansible.git","(?-mix:^library\/system\/.*)",2013-11-21,"scott sturdivant",1,13,1
