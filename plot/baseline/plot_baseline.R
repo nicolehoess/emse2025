@@ -85,13 +85,15 @@ ts_plot <- function(df) {
   df_long <- df_long %>% mutate(metric = recode(metric, "Entities" = "Entity Blocks"))
   
   p_1 <- ggplot(subset(df_long, project %in% c("Birt", "Conductor", "Django", "Flink")), 
-                aes(x = Time, y = Count, color = Tool)) +
+                aes(x = Time, y = Count, color = Tool, linetype = Tool, shape = Tool)) +
     labs(x = "Time") +
-    geom_line(linewidth = LINE.SIZE-0.2, linetype="solid", alpha=1,
+    geom_line(linewidth = LINE.SIZE-0.3, alpha=1,
               position=position_dodge(width=0.5)) +
-    geom_point(shape = 18, size = POINT.SIZE*1.3, alpha=1,
+    geom_point(size = POINT.SIZE-0.1, alpha=1,
                position=position_dodge(width=0.5)) +
-    scale_colour_manual(values=COLOURS.LIST[c(17,15,16,8)], name="Tool") +
+    scale_colour_manual(values=COLOURS.LIST[c(17,15,18,16)], name="Tool") +
+    scale_linetype_manual(values=c("solid","42","solid","42"), name="Tool") +
+    scale_shape_manual(values=c(16,17,4,18), name="Tool") +
     facet_grid2(metric ~ project,
                 scales = "free", independent = "y") +
     scale_x_continuous(breaks = function(x) pretty(c(1, x), n = 5)) +
@@ -108,13 +110,15 @@ ts_plot <- function(df) {
           strip.text = element_text(size = SMALL.SIZE*1.5))
   
   p_2 <- ggplot(subset(df_long, project %in% c("PostgreSQL", "QEMU", "U-Boot", "Wine")), 
-                aes(x = Time, y = Count, color = Tool)) +
+                aes(x = Time, y = Count, color = Tool, linetype = Tool, shape = Tool)) +
     labs(x = "Time") +
-    geom_line(linewidth = LINE.SIZE-0.2, linetype="solid", alpha=1,
+    geom_line(linewidth = LINE.SIZE-0.3, alpha=1,
               position=position_dodge(width=0.5)) +
-    geom_point(shape = 18, size = POINT.SIZE*1.3, alpha=1,
+    geom_point(size = POINT.SIZE-0.1, alpha=1,
                position=position_dodge(width=0.5)) +
-    scale_colour_manual(values=COLOURS.LIST[c(17,15,16,8)], name="Tool") +
+    scale_colour_manual(values=COLOURS.LIST[c(17,15,18,16)], name="Tool") +
+    scale_linetype_manual(values=c("solid","42","solid","42"), name="Tool") +
+    scale_shape_manual(values=c(16,17,4,18), name="Tool") +
     facet_grid2(metric ~ project,
                 scales = "free", independent = "y") +
     scale_x_continuous(breaks = function(x) pretty(c(1, x), n = 5)) +

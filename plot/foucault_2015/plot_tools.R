@@ -430,6 +430,85 @@ corr_table <- function(df, save_path) {
   writeLines(df_out, save_path)
 }
 
+#' Evaluate result stability (H_bR) across replication tools.
+#'
+#' For each (project, turnover metric), computes the cross-tool deviation of the
+#' lower and upper 95% CI bounds (max_t - min_t) over the four replication tools,
+#' using the precomputed bootstrap CIs. A cell requires all four tools to have a
+#' CI; otherwise it is excluded ("--"). A cell is stable if the larger of the two
+#' bound deviations stays within delta_rho.
+#'
+#' @param df_corr long df with project, tool, metric, lo_95, hi_95 (recoded).
+#' @param metrics turnover metrics to include, in column order.
+#' @param delta_rho stability threshold.
+#' @param save_path LaTeX table output path.
+#' @param csv_path CSV (long, verification) output path.
+#'
+result_stability_foucault <- function(df_corr,
+                                      metrics = c("INA", "ILA", "ENA", "ELA", "StA", "A"),
+                                      delta_rho = 0.1,
+                                      save_path = NULL, csv_path = NULL) {
+  repl_tools <- c("Codeface", "git2net", "GrimoireLab", "Kaiaulu")
+  d <- df_corr[df_corr$tool %in% repl_tools & df_corr$metric %in% metrics, ]
+  projects <- unique(d$project[order(tolower(d$project))])
+  
+  # Per (project, metric): deviation of each bound over the four tools.
+  long <- list()
+  for (p in projects) for (m in metrics) {
+    sub <- d[d$project == p & d$metric == m, ]
+    sub <- sub[match(repl_tools, sub$tool), ]  # align, NA rows for missing tools
+    complete <- all(!is.na(sub$lo_95) & !is.na(sub$hi_95))
+    if (complete) {
+      dev_lo <- max(sub$lo_95) - min(sub$lo_95)
+      dev_hi <- max(sub$hi_95) - min(sub$hi_95)
+      dev    <- max(dev_lo, dev_hi)
+    } else {
+      dev_lo <- NA; dev_hi <- NA; dev <- NA
+    }
+    long[[length(long) + 1]] <- data.frame(
+      project = p, metric = m,
+      dev_lo = round(dev_lo, 4), dev_hi = round(dev_hi, 4),
+      dev = round(dev, 4),
+      stable = if (is.na(dev)) NA else dev <= delta_rho,
+      row.names = NULL, stringsAsFactors = FALSE
+    )
+  }
+  long <- do.call(rbind, long)
+  
+  assessed <- long[!is.na(long$dev), ]
+  stable <- all(assessed$stable)
+  cat(sprintf("H_bR result stability: %s  (%d of %d cells assessed)\n",
+              if (stable) "STABLE" else "NOT STABLE",
+              nrow(assessed), nrow(long)))
+  
+  # Save long table to CSV.
+  if (!is.null(csv_path)) write_csv(long, csv_path)
+  
+  # Save as LaTeX matrix table.
+  if (!is.null(save_path)) {
+    fmt_cell <- function(dev, stab) {
+      if (is.na(dev)) return("--")
+      txt <- sprintf("%.2f", dev)
+      if (!stab) paste0("\\cellcolor{lfd-lilac!60}{", txt, "}") else txt
+    }
+    tbl <- data.frame(Project = projects, check.names = FALSE,
+                      stringsAsFactors = FALSE)
+    for (m in metrics) {
+      col <- vapply(projects, function(p) {
+        r <- long[long$project == p & long$metric == m, ]
+        fmt_cell(r$dev, r$stable)
+      }, character(1))
+      tbl[[if (m == "A") "Total A" else m]] <- col
+    }
+    tabular <- capture.output(
+      kable(tbl, format = "latex", booktabs = TRUE, linesep = "",
+            escape = FALSE, align = c("l", rep("c", length(metrics)))))
+    latex_code <- c("{\\scriptsize", tabular, "}")
+    writeLines(latex_code, save_path)
+  }
+}
+
+
 
 # Plot turnover evolution.
 projects = c("angular_js", "ansible", "jenkins", "jquery", "rails")
@@ -520,3 +599,16 @@ df_corr <- recode_projects_tools(df_corr)
 
 table_save_path <- file.path("corr", "corr_table_filtered.tex")
 corr_table(df_corr, table_save_path)
+
+df_corr <- rbind(df_corr_original, df_corr_codeface, df_corr_git2net,
+                 df_corr_grimoire, df_corr_kaiaulu)
+df_corr <- recode_projects_tools(df_corr)
+
+table_save_path <- file.path("corr", "corr_table.tex")
+corr_table(df_corr, table_save_path)
+
+# Evaluate result stability across replication tools.
+result_stability_foucault(
+  df_corr,
+  save_path = file.path("corr", "foucault_result_stability.tex"),
+  csv_path  = file.path("corr", "foucault_result_stability.csv"))

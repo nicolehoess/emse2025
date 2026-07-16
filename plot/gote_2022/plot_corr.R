@@ -770,6 +770,197 @@ reg_plot_multiple <- function(df_original, df_codeface, df_git2net,
   return(p)
 }
 
+#' Evaluates result stability (H_aR) across tools using bootstrap CIs.
+#'
+#' For each productivity metric m_p and collaboration metric m_c, computes the
+#' Pearson correlation rho_{m_p,m_c,t}; for each m_p, the linear regression
+#' coefficient beta_{m_p,TS,t} from lm(m_p ~ TS). For every quantity, 95%
+#' bootstrap CIs are built from B resamples of the (project, time window)
+#' observations of each tool independently. A quantity is stable if the
+#' cross-tool deviation of BOTH CI bounds stays within the respective threshold.
+#'
+#' @param tool_dfs named list of tool data frames (renamed, log-transformed).
+#' @param prod_metrics productivity metrics M_prod.
+#' @param collab_metrics collaboration metrics M_collab.
+#' @param delta_rho stability threshold for correlations.
+#' @param delta_beta stability threshold for regression coefficients.
+#' @param B number of bootstrap resamples.
+#' @param save_path the LaTeX table output path.
+#' @param csv_path the CSV output path.
+#' @return a data frame with per-quantity CI bound deviations and stability flags.
+#'
+result_stability <- function(tool_dfs, prod_metrics, collab_metrics,
+                             delta_rho = 0.1, delta_beta = 0.1, B = 10000,
+                             save_path = NULL, csv_path = NULL) {
+  set.seed(42)
+  
+  # Bootstrap 95% CI of a statistic for one tool (resample observations).
+  boot_ci <- function(df, stat_fn) {
+    n <- nrow(df)
+    est <- replicate(B, {
+      idx <- sample.int(n, n, replace = TRUE)
+      stat_fn(df[idx, , drop = FALSE])
+    })
+    quantile(est, c(0.025, 0.975), names = FALSE, na.rm = TRUE)
+  }
+  
+  rho_fn  <- function(mp, mc) function(d) cor(d[[mp]], d[[mc]], method = "pearson")
+  beta_fn <- function(mp) function(d) coef(lm(reformulate("TS", mp), data = d))[["TS"]]
+  
+  # Enumerate quantities: rho for each (mp, mc) and beta for each mp.
+  quantities <- c(
+    unlist(lapply(prod_metrics, function(mp)
+      lapply(collab_metrics, function(mc)
+        list(label = sprintf("$\\rho_{\\text{%s},\\text{%s}}$", mp, mc),
+             key = sprintf("rho(%s, %s)", mp, mc),
+             fn = rho_fn(mp, mc), delta = delta_rho))),
+      recursive = FALSE),
+    lapply(prod_metrics, function(mp)
+      list(label = sprintf("$\\beta_{\\text{%s},\\text{TS}}$", mp),
+           key = sprintf("beta(%s, TS)", mp),
+           fn = beta_fn(mp), delta = delta_beta))
+  )
+  
+  # Per quantity: calculate cross-tool deviation of each CI bound.
+  metrics   <- vapply(quantities, function(q) q$label, character(1))
+  deltas    <- vapply(quantities, function(q) q$delta, numeric(1))
+  keys      <- vapply(quantities, function(q) q$key, character(1))
+  dev_lower <- numeric(length(quantities))
+  dev_upper <- numeric(length(quantities))
+  
+  # Per metric and tool boundaries for manual verification
+  bounds_long <- list()
+  
+  # Evaluate tool CIs.
+  for (i in seq_along(quantities)) {
+    cis <- sapply(tool_dfs, function(df) boot_ci(df, quantities[[i]]$fn))
+    # LaTeX table aggregation
+    dev_lower[i] <- max(cis[1, ]) - min(cis[1, ])
+    dev_upper[i] <- max(cis[2, ]) - min(cis[2, ])
+    # CSV details
+    bounds_long[[i]] <- data.frame(
+      Quantity = quantities[[i]]$key,
+      Tool     = names(tool_dfs),
+      Lower    = round(cis[1, ], 4),
+      Upper    = round(cis[2, ], 4),
+      row.names = NULL, stringsAsFactors = FALSE
+    )
+  }
+  
+  # Save CSV table for manual verification.
+  if (!is.null(csv_path)) {
+    bounds_path <- sub("\\.csv$", "_bounds.csv", csv_path)
+    write_csv(do.call(rbind, bounds_long), bounds_path)
+  }
+  
+  # Save LaTeX table.
+  fmt_cell <- function(dev, delta) {
+    txt <- sprintf("%.2f", dev)
+    ifelse(dev > delta, paste0("\\cellcolor{lfd-lilac!60}{", txt, "}"), txt)
+  }
+  
+  # Transposed table: one row per quantity, columns for the two CI bounds.
+  res <- data.frame(
+    metrics,
+    mapply(fmt_cell, dev_lower, deltas),
+    mapply(fmt_cell, dev_upper, deltas),
+    check.names = FALSE, stringsAsFactors = FALSE
+  )
+  colnames(res) <- c("$\\max\\limits_{t \\in T} - \\min\\limits_{t \\in T}$",
+                     "$\\text{CI}_{\\text{lo}}$", "$\\text{CI}_{\\text{hi}}$")
+  
+  if (!is.null(save_path)) {
+    tabular <- capture.output(
+      kable(res, format = "latex", booktabs = TRUE, linesep = "",
+            escape = FALSE, align = "lcc"))
+    latex_code <- c("{\\scriptsize", tabular, "}")
+
+    writeLines(latex_code, save_path)
+  }
+}
+
+#' Evaluates conclusion stability (H_aC) across tools.
+#'
+#' Following Gote et al., a tool supports the Brooks' law verdict (V_t = 1) if
+#' all correlations rho_{m_p,TS,t} and linear regression coefficients
+#' beta_{m_p,TS,t} between each productivity metric and team size are negative.
+#' The conclusion is stable iff all tools agree (V_t = 1 for all t).
+#'
+#' @param tool_dfs named list of tool data frames (renamed, log-transformed).
+#' @param prod_metrics productivity metrics M_prod.
+#' @param csv_path optional CSV output path for the per-tool values.
+#' @return TRUE if the conclusion is stable across tools, else FALSE.
+#'
+conclusion_stability <- function(tool_dfs, prod_metrics, 
+                                 save_path = NULL, csv_path = NULL) {
+  rows <- list()
+  for (tool in names(tool_dfs)) {
+    d <- tool_dfs[[tool]]
+    for (mp in prod_metrics) {
+      rho  <- cor(d[[mp]], d[["TS"]], method = "pearson")
+      beta <- coef(lm(reformulate("TS", mp), data = d))[["TS"]]
+      rows[[length(rows) + 1]] <- data.frame(
+        Tool = tool, Metric = mp,
+        rho = round(rho, 4), beta = round(beta, 4),
+        row.names = NULL, stringsAsFactors = FALSE
+      )
+    }
+  }
+  df <- do.call(rbind, rows)
+  
+  if (!is.null(csv_path)) {
+    write_csv(df, csv_path)
+  }
+  
+  # Save LaTeX table.
+  if (!is.null(save_path)) {
+    # Highlight a cell that breaks the verdict (non-negative value).
+    fmt_cell <- function(v) {
+      ifelse(v < 0, "$<0$", "\\cellcolor{lfd-lilac!60}{$\\geq 0$}")
+    }
+    
+    # Transposed table: one row per metric, one column per tool.
+    tools <- names(tool_dfs)
+    metric_labels <- character(0)
+    cells <- list()  # one vector per tool, in metric-row order
+    for (tool in tools) cells[[tool]] <- character(0)
+    
+    add_row <- function(label, values) {
+      metric_labels <<- c(metric_labels, label)
+      for (tool in tools)
+        cells[[tool]] <<- c(cells[[tool]], values[[tool]])
+    }
+    
+    for (mp in prod_metrics) {
+      sub <- df[df$Metric == mp, ]
+      sub <- sub[match(tools, sub$Tool), ]
+      rho_vals  <- setNames(fmt_cell(sub$rho),  tools)
+      beta_vals <- setNames(fmt_cell(sub$beta), tools)
+      add_row(sprintf("$\\rho_{\\text{%s},\\text{TS}}$", mp),  rho_vals)
+      add_row(sprintf("$\\beta_{\\text{%s},\\text{TS}}$", mp), beta_vals)
+    }
+    
+    # Per-tool verdict V_t = 1 iff all rho and beta negative.
+    vt <- tapply(df$rho < 0 & df$beta < 0, df$Tool, all)[tools]
+    add_row("$V_t$", setNames(ifelse(vt, "1", "0"), tools))
+    
+    # Assemble: metric-label column + one column per tool (rotated header).
+    tbl <- data.frame(Metric = metric_labels,
+                      check.names = FALSE, stringsAsFactors = FALSE)
+    disp <- function(t) ifelse(t == "GrimoireLab", "Grimoire", t)
+    for (tool in tools)
+      tbl[[sprintf("\\rotatebox{90}{%s}", disp(tool))]] <- cells[[tool]]
+    colnames(tbl)[1] <- ""
+    
+    tabular <- capture.output(
+      kable(tbl, format = "latex", booktabs = TRUE, linesep = "",
+            escape = FALSE, align = c("l", rep("c", ncol(tbl) - 1))) %>%
+        row_spec(length(metric_labels) - 1, hline_after = TRUE))
+    latex_code <- c("{\\scriptsize", tabular, "}")
+    writeLines(latex_code, save_path)
+  }
+}
+
 
 # Read reduced original reproducibility data set.
 df_original_full <- data.frame(read_csv(opt$repro_path))
@@ -915,3 +1106,19 @@ if (opt$tikz) {
   print(p)
   dev.off()
 }
+
+
+# Evaluate result stability (H_aR) across tools.
+tool_dfs <- list(Codeface = df_codeface, git2net = df_git2net,
+                 GrimoireLab = df_grimoire, Kaiaulu = df_kaiaulu)
+result_stability(tool_dfs,
+                 prod_metrics   = c("Commits", "Functions", "HalEff"),
+                 collab_metrics = c("N", "InD", "FModR"),
+                 save_path = str_c("result_stability_", opt$network_mode, ".tex"),
+                 csv_path  = str_c("result_stability_", opt$network_mode, ".csv"))
+
+# Evaluate conclusion stability (H_aC) across tools.
+conclusion_stability(tool_dfs,
+                     prod_metrics = c("Commits", "Functions", "HalEff"),
+                     save_path = str_c("conclusion_stability_", opt$network_mode, ".tex"),
+                     csv_path = str_c("conclusion_stability_", opt$network_mode, ".csv"))

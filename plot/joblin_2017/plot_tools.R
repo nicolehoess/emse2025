@@ -14,6 +14,8 @@ library(dplyr)
 library(ggplot2)
 library(ggh4x) # devtools::install_github("teunbrand/ggh4x")
 library(gridExtra)
+library(kableExtra)
+library(knitr)
 library(patchwork)
 library(psych)
 library(scales)
@@ -422,6 +424,280 @@ agreement_plot <- function(df_codeface, df_git2net, df_grimoire, df_kaiaulu,
   return(p)
 }
 
+#' Evaluates Joblin result stability (H_cR) across tool pairs using bootstrap CIs.
+#'
+#' For each metric, project, time window, and tool pair, computes Cohen's kappa
+#' between the two tools' developer classifications on the set of developers
+#' identified by all four tools, and a 95% bootstrap CI (B resamples of
+#' developers).
+#'
+#' @param res_path path to the results directory (per-tool subfolders).
+#' @param projects project folder names.
+#' @param captions display names, parallel to projects.
+#' @param metrics classification columns to compare.
+#' @param delta substantial-agreement threshold.
+#' @param B bootstrap resamples.
+#' @param save_path LaTeX table output path (worst case per metric).
+#' @param csv_path CSV output path (all tuples, for verification).
+#'
+result_stability_joblin <- function(res_path, projects, captions,
+                                    metrics = c("loc_count_class", "commit_count_class",
+                                                "degree_class", "eigenvector_class",
+                                                "hierarchy_class"),
+                                    delta = 0.61, B = 10000,
+                                    save_path = NULL, csv_path = NULL) {
+  set.seed(42)
+  tools <- c("codeface", "git2net", "grimoire", "kaiaulu")
+  tool_disp <- c(codeface = "Codeface", git2net = "git2net",
+                 grimoire = "GrimoireLab", kaiaulu = "Kaiaulu")
+  metric_disp <- c(loc_count_class = "LOC", commit_count_class = "Commits",
+                   degree_class = "Node degree", eigenvector_class = "Eigenvector",
+                   hierarchy_class = "Hierarchy")
+  
+  # Helper function for pairwise Cohen's kappa calculation.
+  kappa_pair <- function(c1, c2) {
+    if (length(c1) == 0) return(0)
+    if (all(c1 == c2) && length(unique(c1)) == 1) return(1)
+    tryCatch(psych::cohen.kappa(cbind(c1, c2))$kappa,
+             error = function(e) NA_real_, warning = function(w) NA_real_)
+  }
+  
+  rows <- list()
+  for (pi in seq_along(projects)) {
+    project <- projects[pi]
+    print(paste0("Calculating bootstrap CIs for project ", project))
+    if (!dir.exists(file.path(res_path, "codeface", project))) next
+    
+    # Read and unify the four tools' classifications.
+    dfs <- lapply(tools, function(t) {
+      d <- data.frame(read_csv(file.path(res_path, t, project,
+                                         "developer_classification.csv"),
+                               show_col_types = FALSE))
+      d$developer <- sub("\\s*<.*", "", d$developer)
+      d <- d[, c("range_id", "developer", metrics)]
+      # tag metric columns with the tool
+      names(d)[names(d) %in% metrics] <- paste0(metrics, "_", t)
+      d
+    })
+    names(dfs) <- tools
+    
+    # Get commonly identified developers.
+    common <- Reduce(function(a, b) inner_join(a, b, by = c("range_id", "developer")), dfs)
+    
+    # Calculate kappa bootstrap CIs.
+    windows <- sort(unique(common$range_id))
+    print(str(windows))
+    for (w in windows) {
+      print(str(w))
+      cw <- common[common$range_id == w, ]
+      if (nrow(cw) == 0) next
+      for (m in metrics) {
+        for (i in 1:(length(tools) - 1)) for (j in (i + 1):length(tools)) {
+          ta <- tools[i]; tb <- tools[j]
+          v1 <- cw[[paste0(m, "_", ta)]]
+          v2 <- cw[[paste0(m, "_", tb)]]
+          n <- length(v1)
+          
+          k_point <- kappa_pair(v1, v2)
+          if (n >= 2) {
+            boot <- replicate(B, {
+              idx <- sample.int(n, n, replace = TRUE)
+              kappa_pair(v1[idx], v2[idx])
+            })
+            ci <- quantile(boot, c(0.025, 0.975), names = FALSE, na.rm = TRUE)
+          } else {
+            ci <- c(NA_real_, NA_real_)
+          }
+          
+          rows[[length(rows) + 1]] <- data.frame(
+            metric = metric_disp[[m]], project = captions[pi], window = w,
+            tool_a = tool_disp[[ta]], tool_b = tool_disp[[tb]],
+            n = n, kappa = round(k_point, 4),
+            lo = round(ci[1], 4), hi = round(ci[2], 4),
+            row.names = NULL, stringsAsFactors = FALSE
+          )
+        }
+      }
+    }
+  }
+  res <- do.call(rbind, rows)
+  if (!is.null(csv_path)) write_csv(res, csv_path)
+}
+
+#' Aggregates Joblin table for the paper.
+#'
+#' We present the fraction of windows fulfilling the substantial agreement
+#' lower bound for different jointly identified developer thresholds (as low 
+#' counts lead to degenerate kappa values).
+#'
+#' @param res the output result table with individual values.
+#' @param thresholds the thresholds for the minimum required developers.
+#' @param delta the agreement threshold, 0.61 indicating substantial agreement.
+#' @param save_path LaTeX table output path.
+#'
+build_result_stability_table <- function(res,
+                                         thresholds = c(2, 10, 20, 40),
+                                         delta = 0.61,
+                                         save_path = NULL) {
+  
+  count_metrics   <- c("LOC", "Commits")
+  network_metrics <- c("Node degree", "Eigenvector", "Hierarchy")
+  metric_order    <- c(count_metrics, network_metrics)
+  
+  # Per metric, per threshold: fraction of assessable windows whose LOWER CI
+  # bound reaches substantial agreement (lo >= delta). NA lo (n = 1) excluded.
+  frac <- function(m, thr) {
+    sub <- res[res$metric == m & !is.na(res$lo) & res$n >= thr, ]
+    if (nrow(sub) == 0) return(NA_real_)
+    mean(sub$lo >= delta)
+  }
+  
+  cell <- function(m, thr) {
+    f <- frac(m, thr)
+    if (is.na(f)) "--" else sprintf("%.2f", f)
+  }
+  
+  # Build LaTeX body: grouped by metric type with a header row + midrule.
+  hdr <- paste0("\\textbf{Metric} & ",
+                paste(sprintf("\\textbf{$n_{\\text{dev}} \\geq %d$}", thresholds),
+                      collapse = " & "), "\\\\")
+  metric_row <- function(m) paste0(m, " & ",
+                                   paste(vapply(thresholds, function(t) cell(m, t), character(1)),
+                                         collapse = " & "), "\\\\")
+  
+  body <- c(
+    "\\multicolumn{" , NULL) # placeholder, built below
+  ncol <- length(thresholds) + 1
+  lines <- c(
+    "{\\scriptsize",
+    sprintf("\\begin{tabular}{l%s}", paste(rep("c", length(thresholds)), collapse = "")),
+    "\\toprule",
+    hdr,
+    "\\midrule",
+    sprintf("\\multicolumn{%d}{l}{\\emph{Count-based}}\\\\", ncol),
+    vapply(count_metrics, metric_row, character(1)),
+    "\\midrule",
+    sprintf("\\multicolumn{%d}{l}{\\emph{Network-based}}\\\\", ncol),
+    vapply(network_metrics, metric_row, character(1)),
+    "\\bottomrule",
+    "\\end{tabular}",
+    "}"
+  )
+  
+  if (!is.null(save_path)) writeLines(lines, save_path)
+}
+
+#' Evaluates Joblin conclusion stability (H_cC).
+#'
+#' For each tool, computes the within-tool pairwise Cohen's kappa between every
+#' count-based and network-based metric, per project and time window, on that
+#' tool's own developers. A tool supports the verdict (V_t = 1) if kappa exceeds
+#' random chance for the majority of (m_c, m_n, p, w) combinations.
+#' Conclusions are stable if all tools yield V_t = 1.
+#'
+#' @param res_path path to the results directory (per-tool subfolders).
+#' @param projects project folder names.
+#' @param captions display names, parallel to projects.
+#' @param count_metrics count-based classification columns.
+#' @param network_metrics network-based classification columns.
+#' @param delta_c chance-agreement threshold (0).
+#' @param save_path LaTeX table output path (per-tool verdict summary).
+#' @param csv_path CSV output path (all combinations, for verification).
+#'
+conclusion_stability_joblin <- function(res_path, projects, captions,
+                                        count_metrics = c("loc_count_class",
+                                                          "commit_count_class"),
+                                        network_metrics = c("degree_class",
+                                                            "eigenvector_class",
+                                                            "hierarchy_class"),
+                                        delta_c = 0,
+                                        save_path = NULL, csv_path = NULL) {
+  tools <- c("codeface", "git2net", "grimoire", "kaiaulu")
+  tool_disp <- c(codeface = "Codeface", git2net = "git2net",
+                 grimoire = "GrimoireLab", kaiaulu = "Kaiaulu")
+  all_metrics <- c(count_metrics, network_metrics)
+  
+  # Point Cohen's kappa between two class vectors (within one tool).
+  point_kappa <- function(c1, c2) {
+    if (length(c1) < 2) return(NA_real_)
+    if (all(c1 == c2) && length(unique(c1)) == 1) return(1)
+    tryCatch(psych::cohen.kappa(cbind(c1, c2))$kappa,
+             error = function(e) NA_real_, warning = function(w) NA_real_)
+  }
+  
+  rows <- list()
+  for (pi in seq_along(projects)) {
+    project <- projects[pi]
+    if (!dir.exists(file.path(res_path, "codeface", project))) next
+    
+    for (t in tools) {
+      f <- file.path(res_path, t, project, "developer_classification.csv")
+      if (!file.exists(f)) next
+      d <- data.frame(read_csv(f, show_col_types = FALSE))
+      
+      for (w in sort(unique(d$range_id))) {
+        dw <- d[d$range_id == w, ]
+        if (nrow(dw) < 2) next
+        for (mc in count_metrics) for (mn in network_metrics) {
+          k <- point_kappa(dw[[mc]], dw[[mn]])
+          rows[[length(rows) + 1]] <- data.frame(
+            tool = tool_disp[[t]], project = captions[pi], window = w,
+            metric_count = mc, metric_net = mn,
+            n = nrow(dw), kappa = round(k, 4),
+            row.names = NULL, stringsAsFactors = FALSE
+          )
+        }
+      }
+    }
+  }
+  res <- do.call(rbind, rows)
+  if (!is.null(csv_path)) write_csv(res, csv_path)
+  
+  # Per-tool verdict: majority of assessable combinations with kappa > delta_c.
+  verdict <- do.call(rbind, lapply(unique(res$tool), function(tt) {
+    sub <- res[res$tool == tt & !is.na(res$kappa), ]
+    k_total <- nrow(sub)                      # assessed combinations
+    k_above <- sum(sub$kappa > delta_c)       # exceeding chance
+    majority <- ceiling(k_total / 2)
+    data.frame(tool = tt, assessed = k_total, above_chance = k_above,
+               majority = majority, V_t = as.integer(k_above >= majority),
+               row.names = NULL, stringsAsFactors = FALSE)
+  }))
+  
+  # Save LaTeX table (tools as columns, V_t as bottom row).
+  if (!is.null(save_path)) {
+    tools_disp <- str_c("\\textbf{", verdict$tool, "}")
+    
+    
+    tbl <- data.frame(
+      Quantity = c("$k$",
+                   "$\\lceil k/2 \\rceil$",
+                   "$\\kappa > \\delta_{\\kappa,\\text{C}}$",
+                   "$(\\kappa > \\delta_{\\kappa,\\text{C}})/k$",
+                   "$V_t$"),
+      check.names = FALSE, stringsAsFactors = FALSE
+    )
+    for (i in seq_along(tools_disp)) {
+      colname <- tools_disp[i]
+      tbl[[colname]] <- c(
+        formatC(verdict$assessed[i], format = "d", big.mark = ","),
+        formatC(verdict$majority[i], format = "d", big.mark = ","),
+        formatC(verdict$above_chance[i], format = "d", big.mark = ","),
+        formatC(verdict$above_chance[i] / verdict$assessed[i], format = "f", digits = 2),
+        formatC(verdict$V_t[i], format = "d", big.mark = ",")
+      )
+    }
+    colnames(tbl)[1] <- ""
+    
+    tabular <- capture.output(
+      kable(tbl, format = "latex", booktabs = TRUE, linesep = "",
+            escape = FALSE, align = c("l", rep("c", length(tools_disp)))) %>%
+        row_spec(4, hline_after = TRUE))
+    latex_code <- c("{\\scriptsize", tabular, "}")
+    writeLines(latex_code, save_path)
+  }
+}
+
 
 projects <- c("django", "ffmpeg", "gcc", "linux", "llvm-project", "postgresql", "qemu", "u-boot", "wine")
 captions <- c("Django", "FFmpeg", "GCC", "Linux", "LLVM", "PostgreSQL", "QEMU", "U-Boot", "Wine")
@@ -442,11 +718,11 @@ for (project in projects) {
                                                "developer_classification.csv")))
   df_kaiaulu <- data.frame(read_csv(path.join(opt$res_path, "kaiaulu", project,
                                               "developer_classification.csv")))
-  
+
   # Plot the pairwise agreement for each metric and tool over the project lifetime.
   p <- agreement_plot(df_codeface, df_git2net, df_grimoire, df_kaiaulu,
                       y_axis=TRUE, project, "", cap=captions[i])
-  
+
   # Save the plot.
   plot_save_path <- str_c("tool_agreement.pdf")
   if (!dir.exists(project)) {
@@ -455,7 +731,7 @@ for (project in projects) {
   ggsave(file.path(project, plot_save_path), plot = p,
          width = 0.61*TEXTWIDTH, height = 0.62*TEXTWIDTH, units = "in")
   plot(p)
-  
+
   if (opt$tikz) {
     plot_save_path <- str_c(project, "_tool_agreement", ".tex")
     tikz(file.path("img-tikz", plot_save_path),
@@ -463,7 +739,7 @@ for (project in projects) {
     print(p)
     dev.off()
   }
-  
+
   # Create 1-year agreement plots.
   for (j in seq(from=max(df_codeface$range_id), to=1, by=-4)){
     # Make batches of 4 time windows each.
@@ -471,18 +747,18 @@ for (project in projects) {
     df_git2net_part <- df_git2net[((df_git2net$range_id<=j) & (df_git2net$range_id>=j-3)),]
     df_grimoire_part <- df_grimoire[((df_grimoire$range_id<=j) & (df_grimoire$range_id>=j-3)),]
     df_kaiaulu_part <- df_kaiaulu[((df_kaiaulu$range_id<=j) & (df_kaiaulu$range_id>=j-3)),]
-    
+
     # Plot the pairwise agreement for each metric and tool.
     project_range <- str_c(j, "-", j-3)
     p <- agreement_plot(df_codeface_part, df_git2net_part, df_grimoire_part,
                         df_kaiaulu_part, project, project_range, y_axis=TRUE, cap=captions[i])
-    
+
     # Save the plot.
     plot_save_path <- str_c("tool_agreement_", j, "-", j-3, ".pdf")
     ggsave(file.path(project, plot_save_path), plot = p,
            width = 0.61*TEXTWIDTH, height = 0.62*TEXTWIDTH, units = "in") # width 0.5, height 0.55
     plot(p)
-    
+
     if (opt$tikz) {
       plot_save_path <- str_c(project, "_tool_agreement_", j, "-", j-3, ".tex")
       tikz(file.path("img-tikz", plot_save_path),
@@ -493,3 +769,23 @@ for (project in projects) {
   }
   i <- i+1
 }
+
+# Evaluate result stability.
+result_stability_joblin(opt$res_path, projects, captions,
+                        save_path = "joblin_result_stability.tex",
+                        csv_path  = "joblin_result_stability.csv")
+
+# For cross-check.
+res <- read_csv("joblin_result_stability.csv")
+res %>% dplyr::filter(!is.na(hi)) %>%
+  mutate(degenerate = hi <= 0.001) %>%
+  group_by(degenerate) %>%
+  summarise(median_n = median(n), max_n = max(n), count = n())
+
+build_result_stability_table(res,
+                             thresholds = c(2, 10, 20, 60),
+                             save_path  = "joblin_result_stability.tex")
+
+conclusion_stability_joblin(opt$res_path, projects, captions,
+                            save_path = "joblin_conclusion_stability.tex",
+                            csv_path  = "joblin_conclusion_stability.csv")

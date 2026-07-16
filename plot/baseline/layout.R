@@ -16,7 +16,8 @@ POINT.SIZE <- 0.5
 BIG.POINT.SIZE <- 0.8
 COLOURS.LIST <- c("black", "#E69F00", "#999999", "#009371", "#ECACCA",
                   "#1f78b4", "#009371", "#beaed4", "#3089c5", "#BBBBBB",
-                  "#CCCCCC", "#808080", "#D996B6", "#ED665A", "#184D1F", "#5A9FE6", "#CC8C00")
+                  "#CCCCCC", "#808080", "#D996B6", "#ED665A", "#184D1F", 
+                  "#5A9FE6", "#CC8C00", "#b06ba8")
 #COLOURS.LIST <- c("black", "#E69F00", "#999999", "#009371", "#beaed4", "#ed665a", "#1f78b4")
 
 theme_paper_base <- function() {
