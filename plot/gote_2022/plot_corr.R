@@ -45,8 +45,8 @@ option_list = list(
               help="Path to the original study's reproduction data set",
               metavar="character"),
   make_option(c("--network_mode"), type="character", default=NULL,
-                help="For git2net, the network format (edgelist or adjacency)",
-                metavar="character"),
+              help="For git2net, the network format (edgelist or adjacency)",
+              metavar="character"),
   make_option(c("--tikz"), type="logical", default=FALSE, action="store_true",
               help="Plot the tikz graph")
 );
@@ -433,9 +433,23 @@ original_corr_plot <- function(df, y_axis=FALSE) {
   p <- ggplot(corr_dat_wide, aes(x = metric_1, y = metric_2, fill = original)) +
     xlim(cols[1:length(cols)]) + # Save space by shifting duplicate features
     ylim(cols[1:(length(cols))]) +
-    geom_tile(colour="black",
-              size=1, lwd=LINE.SIZE-0.1) +
-    scale_fill_gradientn(colors = colors, limits = c(-1, 1), guide="none") +
+    geom_tile(colour="black", size=1, lwd=LINE.SIZE-0.1) +
+    scale_fill_stepsn(colors = colors, limits = c(-1, 1),
+                      breaks = seq(-1, 1, by = 0.02),
+                      labels = function(b) {
+                        lab <- rep("", length(b))
+                        lab[abs(b + 1) < 1e-6] <- "-1"
+                        lab[abs(b)     < 1e-6] <- "0"
+                        lab[abs(b - 1) < 1e-6] <- "1"
+                        lab
+                      },
+                      name = "Pearson's $\\rho$",
+                      guide = guide_coloursteps(
+                        barwidth = unit(3, "cm"),
+                        barheight = unit(0.3, "cm"),
+                        title.position = "left",
+                        ticks = FALSE,
+                        show.limits = TRUE)) +
     geom_text(aes(label = round(original, 2), color = I(text)),
               size = TABLE.FONT.SIZE*1.5) +
     coord_equal() +
@@ -445,7 +459,11 @@ original_corr_plot <- function(df, y_axis=FALSE) {
           axis.text = element_text(size = SMALL.SIZE*1.5), # Tick font size
           axis.text.x = element_blank(),
           axis.ticks.x = element_blank(),
-          axis.text.y = y_axis_el  # x-axis tick font size
+          axis.text.y = y_axis_el,  # x-axis tick font size
+          legend.position = "bottom",
+          legend.box.margin = margin(l = -2, unit = "cm"),
+          legend.title = element_text(size = SMALL.SIZE*1.3),
+          legend.text = element_text(size = SMALL.SIZE*1.2),
     )
   
   return(p)
@@ -794,7 +812,7 @@ result_stability <- function(tool_dfs, prod_metrics, collab_metrics,
                              save_path = NULL, csv_path = NULL) {
   set.seed(42)
   
-  # Bootstrap 95% CI of a statistic for one tool (resample observations).
+  # Calculate 95% bootstrap CI per tool.
   boot_ci <- function(df, stat_fn) {
     n <- nrow(df)
     est <- replicate(B, {
@@ -807,74 +825,84 @@ result_stability <- function(tool_dfs, prod_metrics, collab_metrics,
   rho_fn  <- function(mp, mc) function(d) cor(d[[mp]], d[[mc]], method = "pearson")
   beta_fn <- function(mp) function(d) coef(lm(reformulate("TS", mp), data = d))[["TS"]]
   
-  # Enumerate quantities: rho for each (mp, mc) and beta for each mp.
+  # Add labels for correlation and regression coefficients.
   quantities <- c(
     unlist(lapply(prod_metrics, function(mp)
       lapply(collab_metrics, function(mc)
         list(label = sprintf("$\\rho_{\\text{%s},\\text{%s}}$", mp, mc),
              key = sprintf("rho(%s, %s)", mp, mc),
-             fn = rho_fn(mp, mc), delta = delta_rho))),
+             fn = rho_fn(mp, mc), delta = delta_rho, range = 2))),
       recursive = FALSE),
     lapply(prod_metrics, function(mp)
       list(label = sprintf("$\\beta_{\\text{%s},\\text{TS}}$", mp),
            key = sprintf("beta(%s, TS)", mp),
-           fn = beta_fn(mp), delta = delta_beta))
+           fn = beta_fn(mp), delta = delta_beta, range = NA_real_)) # no meaningful percentage deviation for regression coefficients; use mean spread as maximum later
   )
   
-  # Per quantity: calculate cross-tool deviation of each CI bound.
-  metrics   <- vapply(quantities, function(q) q$label, character(1))
-  deltas    <- vapply(quantities, function(q) q$delta, numeric(1))
-  keys      <- vapply(quantities, function(q) q$key, character(1))
-  dev_lower <- numeric(length(quantities))
-  dev_upper <- numeric(length(quantities))
+  # Calculate cross-tool deviation of each CI bound.
+  metrics <- vapply(quantities, function(q) q$label, character(1))
+  deltas  <- vapply(quantities, function(q) q$delta, numeric(1))
+  ranges  <- vapply(quantities, function(q) q$range, numeric(1))
+  keys    <- vapply(quantities, function(q) q$key,   character(1))
   
-  # Per metric and tool boundaries for manual verification
+  n <- length(quantities)
+  dev_lower <- dev_upper <- numeric(n)
+  mag_lo <- mag_hi <- numeric(n) # mean bound value to refer to for percentage deviation
   bounds_long <- list()
   
-  # Evaluate tool CIs.
   for (i in seq_along(quantities)) {
     cis <- sapply(tool_dfs, function(df) boot_ci(df, quantities[[i]]$fn))
-    # LaTeX table aggregation
-    dev_lower[i] <- max(cis[1, ]) - min(cis[1, ])
-    dev_upper[i] <- max(cis[2, ]) - min(cis[2, ])
-    # CSV details
+    lo <- cis[1, ]; hi <- cis[2, ]
+    
+    dev_lower[i] <- max(lo) - min(lo)
+    dev_upper[i] <- max(hi) - min(hi)
+    mag_lo[i] <- abs(mean(lo))
+    mag_hi[i] <- abs(mean(hi))
+    
     bounds_long[[i]] <- data.frame(
       Quantity = quantities[[i]]$key,
       Tool     = names(tool_dfs),
-      Lower    = round(cis[1, ], 4),
-      Upper    = round(cis[2, ], 4),
+      Lower    = round(lo, 4),
+      Upper    = round(hi, 4),
       row.names = NULL, stringsAsFactors = FALSE
     )
   }
   
-  # Save CSV table for manual verification.
   if (!is.null(csv_path)) {
     bounds_path <- sub("\\.csv$", "_bounds.csv", csv_path)
     write_csv(do.call(rbind, bounds_long), bounds_path)
   }
   
-  # Save LaTeX table.
-  fmt_cell <- function(dev, delta) {
-    txt <- sprintf("%.2f", dev)
-    ifelse(dev > delta, paste0("\\cellcolor{lfd-lilac!60}{", txt, "}"), txt)
+  # Add percentages for understandability.
+  pct_lower <- ifelse(is.na(ranges), dev_lower / mag_lo, dev_lower / ranges) * 100
+  pct_upper <- ifelse(is.na(ranges), dev_upper / mag_hi, dev_upper / ranges) * 100
+  
+  # Highlight cells with CI bounds exceeding the threshold.
+  fmt_dev <- function(dev, delta) {
+    cell <- sprintf("%.2f", dev)
+    if (dev > delta) paste0("\\cellcolor{lfd-lilac!60}{", cell, "}") else cell
+  }
+  fmt_pct <- function(dev, delta, pct) {
+    cell <- if (is.na(pct)) "--" else sprintf("(%.0f\\%%)", pct)
+    if (dev > delta) paste0("\\cellcolor{lfd-lilac!60}{", cell, "}") else cell
   }
   
-  # Transposed table: one row per quantity, columns for the two CI bounds.
   res <- data.frame(
     metrics,
-    mapply(fmt_cell, dev_lower, deltas),
-    mapply(fmt_cell, dev_upper, deltas),
+    mapply(fmt_dev, dev_lower, deltas),
+    mapply(fmt_pct, dev_lower, deltas, pct_lower),
+    mapply(fmt_dev, dev_upper, deltas),
+    mapply(fmt_pct, dev_upper, deltas, pct_upper),
     check.names = FALSE, stringsAsFactors = FALSE
   )
-  colnames(res) <- c("$\\max\\limits_{t \\in T} - \\min\\limits_{t \\in T}$",
-                     "$\\text{CI}_{\\text{lo}}$", "$\\text{CI}_{\\text{hi}}$")
   
   if (!is.null(save_path)) {
     tabular <- capture.output(
       kable(res, format = "latex", booktabs = TRUE, linesep = "",
-            escape = FALSE, align = "lcc"))
+            escape = FALSE, align = "lrrrr",
+            col.names = c("", "$\\text{CI}_{\\text{lo}}$", "\\%",
+                          "$\\text{CI}_{\\text{hi}}$", "\\%")))
     latex_code <- c("{\\scriptsize", tabular, "}")
-
     writeLines(latex_code, save_path)
   }
 }
@@ -944,7 +972,7 @@ conclusion_stability <- function(tool_dfs, prod_metrics,
     vt <- tapply(df$rho < 0 & df$beta < 0, df$Tool, all)[tools]
     add_row("$V_t$", setNames(ifelse(vt, "1", "0"), tools))
     
-    # Assemble: metric-label column + one column per tool (rotated header).
+    # Assemble: metric-label column and one column per tool (rotated header).
     tbl <- data.frame(Metric = metric_labels,
                       check.names = FALSE, stringsAsFactors = FALSE)
     disp <- function(t) ifelse(t == "GrimoireLab", "Grimoire", t)
